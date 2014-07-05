@@ -1,0 +1,12 @@
+@charset "utf-8";
+.slider-body{
+	height:418px;overflow:hidden;zoom:1;background-color:#fff;
+	ul{@extend %inline-block;white-space:nowrap;font-size:0;position:relative}
+	li{@extend %inline-block;vertical-align:top}
+	img{vertical-align:top}
+}
+.slider-nav{
+	position:absolute;bottom:7px;width:100%;text-align:center;font-size:0;
+	button{@extend %sp-slide;width:25px;height:24px;background-position:4px 4px}
+	button.selected{background-position:-23px 4px}
+}
