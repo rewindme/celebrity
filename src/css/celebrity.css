@@ -48,30 +48,36 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .wrap { background: url(../im/bg_main_body.jpg) no-repeat center top; min-width: 100%; }
 
 /* header */
-.header { margin-bottom: 33px; }
+.header { margin-bottom: 33px; z-index: 30; }
 .header .bi { text-align: center; padding: 50px 0 30px; }
 .header .bi i { width: 265px; height: 55px; background-position: -20px 0; }
-.header .gnb { background-position: -300px 0; padding: 5px 0 5px 73px; }
-.header .gnb li { background-color: #fff; float: left; line-height: 52px; height: 52px; background-position: 209px 15px; }
+.header .gnb { background-position: -300px 0; padding: 5px 0 5px 73px; white-space: nowrap; font-size: 0; }
+.header .gnb li { background-color: #fff; line-height: 52px; height: 52px; background-position: 209px 15px; position: relative; white-space: normal; font-size: 14px; }
 .header .gnb li a { color: #666; display: block; text-align: center; font-size: 1.2em; width: 210px; }
 .header .gnb .membership { background-image: none; }
 .header .gnb .reservation { height: 50px; border: 1px solid #299be1; background: url(../im/pt_gnb_reserve.png) repeat-x 0 0 #3baff6; overflow: hidden; }
 .header .gnb .reservation a { color: #fff; }
 .header .gnb .sub { display: none; }
+.header .gnb li.selected a { position: relative; z-index: 20; color: #fff; }
+.header .gnb li.selected .sub { display: block; }
+.header .gnb .sub { position: absolute; top: 0; left: 0; width: 100%; background-color: #002859; padding-top: 52px; z-index: 10; line-height: normal; }
+.header .gnb .sub li { background: none transparent; height: auto; line-height: 35px; padding-bottom: 3px; }
+.header .gnb .sub a { font-size: 1.1em; }
+.header .gnb .sub a:hover { color: #299be1; }
 
 .hero { position: relative; margin-bottom: 19px; }
 
 .celebrity_intro { width: 954px; margin-bottom: 19px; }
 .celebrity_intro li { padding: 19px; float: left; }
-.celebrity_intro .thumbnail { width: 280px; height: 190px; position: relative; zoom: 1; }
+.celebrity_intro .thumbnail { width: 280px; height: 190px; position: relative; zoom: 1; cursor: pointer; }
 .celebrity_intro .thumbnail img { vertical-align: top; }
-.celebrity_intro .thumbnail .subject { position: absolute; left: 0; bottom: 0; width: 100%; height: 35px; color: #fff; z-index: 20; line-height: 35px; text-indent: 12px; font-size: 0.95em; }
+.celebrity_intro .thumbnail .subject { position: absolute; left: 0; bottom: 0; width: 100%; height: 35px; color: #fff; z-index: 20; line-height: 35px; text-indent: 12px; font-size: 0.9em; }
 .celebrity_intro .thumbnail .deco { position: absolute; left: 0; bottom: 0; width: 100%; height: 35px; background-color: #002859; opacity: 0.9; filter: alpha(opacity=90); z-index: 10; }
-.celebrity_intro .thumbnail .desc { position: absolute; top: 50px; left: 0; padding: 0 17px; font-size: 0.85em; line-height: 1.7em; z-index: 20; }
-.celebrity_intro .thumbnail .btn_more { position: absolute; bottom: 44px; left: 18px; background: url(../im/img_more.png) no-repeat; width: 89px; height: 27px; z-index: 20; }
+.celebrity_intro .thumbnail .desc { position: absolute; top: 50px; left: 0; padding: 0 5px 0 17px; font-size: 0.8em; line-height: 1.7em; z-index: 20; }
+.celebrity_intro .thumbnail .btn_more { background: url(../im/img_more.png) no-repeat; width: 89px; height: 27px; z-index: 20; display: block; margin-top: 15px; }
 .celebrity_intro .thumbnail .desc, .celebrity_intro .thumbnail .btn_more { display: none; color: #fff; }
 .celebrity_intro .hover .thumbnail .deco { top: 0; height: 100%; }
-.celebrity_intro .hover .thumbnail .subject { top: 0; bottom: auto; font-size: 1.55em; font-weight: normal; padding-top: 10px; text-indent: 17px; }
+.celebrity_intro .hover .thumbnail .subject { top: 0; bottom: auto; font-size: 1.45em; font-weight: normal; padding-top: 10px; text-indent: 17px; }
 .celebrity_intro .hover .thumbnail .desc, .celebrity_intro .hover .thumbnail .btn_more { display: block; }
 
 .footer { background-color: #002f63; width: 1000px; margin-bottom: 40px; }
