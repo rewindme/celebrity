@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.wrap{
+	background:url(../im/body_bg/bg_main_body.jpg) no-repeat center top;
+	&.page_club{background-image:url(../im/body_bg/bg_club_body.jpg)}
+}

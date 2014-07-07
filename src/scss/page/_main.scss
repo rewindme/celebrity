@@ -2,7 +2,7 @@
 
 %sp-gnb{background-image:url(../im/sp_gnb.png);background-repeat:no-repeat;@extend %inline-block;vertical-align:top}
 %sp-slide{@extend %sp-gnb;background-image:url(../im/sp_slide.png);border:0;@extend %blind;background-color:transparent}
-i%sp-gnb,%blind i{font:0/0 a;color:transparent;}
+i%sp-gnb,%blind i,%hidden{font:0/0 a;color:transparent;}
 
 %clear{
 	zoom:1;
@@ -11,7 +11,8 @@ i%sp-gnb,%blind i{font:0/0 a;color:transparent;}
 
 %layout{width:916px;margin:0 auto;position:relative;zoom:1}
 
-.wrap{background:url(../im/bg_main_body.jpg) no-repeat center top;@extend %inline-block;min-width:100%}
+.wrap{@extend %inline-block;min-width:100%}
+
 /* header */
 .header{
 	@extend %layout;margin-bottom:33px;z-index:30;
@@ -47,7 +48,7 @@ i%sp-gnb,%blind i{font:0/0 a;color:transparent;}
 		
 }
 
-.celebrity_intro{
+.info_list{
 	@extend %layout;width:954px;@extend %clear;margin-bottom:19px;
 	li{padding:19px;float:left;}
 	.thumbnail{
