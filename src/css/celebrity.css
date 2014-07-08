@@ -23,7 +23,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .blind, .u_skip { visibility: hidden; overflow: hidden; position: absolute; left: -999em; width: 0; height: 0; font-size: 0; color: transparent; line-height: 0; }
 
-.slider-nav button, .header .bi i, .header .gnb, .header .gnb li, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow, .wrap, .footer .sns, .combobox { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
+.slider-nav button, .page_club .slider-nav button, .header .bi i, .header .gnb, .header .gnb li, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow, .wrap, .footer .sns, .combobox, .symbole_thumbnail .grade .thumb_img, .symbole_thumbnail .grade .subs, .symbole_thumbnail .view_membership, .symbole_thumbnail .ask_membership { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
 
 .wrap { background: url(../im/body_bg/bg_main_body.jpg) no-repeat center top; }
 .wrap.page_club { background-image: url(../im/body_bg/bg_club_body.jpg); }
@@ -43,16 +43,16 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .slider-nav button { width: 25px; height: 24px; background-position: 4px 4px; }
 .slider-nav button.av { background-position: -23px 4px; }
 
-.slider-nav button, .header .bi i, .header .gnb, .header .gnb li, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow { background-image: url(../im/sp_gnb.png); background-repeat: no-repeat; vertical-align: top; }
+.slider-nav button, .page_club .slider-nav button, .header .bi i, .header .gnb, .header .gnb li, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow { background-image: url(../im/sp_gnb.png); background-repeat: no-repeat; vertical-align: top; }
 
-.slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
+.slider-nav button, .page_club .slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
 
-.header .bi i, .header i.gnb, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox i.arrow, .slider-nav button i, .info_list .thumbnail .btn_more i, .section_head .tit i, .slider-nav button span { font: 0/0 a; color: transparent; }
+.header .bi i, .header i.gnb, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox i.arrow, .slider-nav button i, .page_club .slider-nav button i, .info_list .thumbnail .btn_more i, .symbole_thumbnail .view_membership i, .symbole_thumbnail .ask_membership i, .slider-nav button span { font: 0/0 a; color: transparent; }
 
-.info_list, .footer { zoom: 1; }
-.info_list:after, .footer:after { content: ''; clear: both; height: 0; display: block; visibility: hidden; }
+.info_list, .footer, .symbole_thumbnail .grade { zoom: 1; }
+.info_list:after, .footer:after, .symbole_thumbnail .grade:after { content: ''; clear: both; height: 0; display: block; visibility: hidden; }
 
-.header, .hero, .info_list, .footer, .container { width: 916px; margin: 0 auto; position: relative; zoom: 1; }
+.header, .hero, .info_list, .footer, .container, .article { width: 916px; margin: 0 auto; position: relative; zoom: 1; }
 
 .wrap { min-width: 100%; }
 
@@ -115,11 +115,65 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .container { width: 1000px; background-color: #fff; border-top: 7px solid #299be1; }
 
-.section_head { padding: 40px; }
+.page_club .slider-body { height: 545px; }
+.page_club .slider-body .cover { width: 920px; height: 545px; }
+.page_club .slider-body .caption { color: #000; font-size: 1.45em; line-height: 45px; height: 45px; color: #757575; padding-right: 10px; }
+.page_club .slider-nav { left: 0; margin: 0; background-color: #fff; padding: 0 20px 0 0; }
+.page_club .slider-nav button { width: 26px; height: 26px; background-position: 4px -22px; }
+.page_club .slider-nav button.av { background-position: -23px -22px; }
+
+.article .sub_tit, .article .symbole_table caption { color: #299be1; font-size: 1.6em; text-align: left; padding-bottom: 8px; font-weight: normal; }
+
+.symbole_thumbnail .grade .thumb_img, .symbole_thumbnail .view_membership, .symbole_thumbnail .ask_membership { background-image: url(../im/img_membership_grade.jpg); background-repeat: no-repeat; }
+
+.section_head { padding: 40px; /* 	.tit{@extend %blind} */ }
+.section_head .tit { font-style: normal; font-size: 2.7em; color: #299be1; font-weight: normal; line-height: 1.3em; }
 .section_head .section_list { border-collapse: collapse; table-layout: fixed; position: absolute; right: 41px; top: 43px; }
 .section_head .section_list td { border: 1px solid #e4e4e4; color: #999; font-size: 0.85em; text-align: center; line-height: 18px; padding: 5px 5px; letter-spacing: -1px; min-width: 118px; }
 .section_head .section_list td.selected { border: 1px solid #299be1; background-color: #299be1; color: #fff; }
 
-.page_club .section_head .tit { background: url(../im/tit_head_club.png) no-repeat; width: 492px; height: 91px; }
+.page_club { /* 	.section_head .tit{background:url(../im/tit_head_club.png) no-repeat;width:492px;height:91px} */ }
+.page_club .section_head .tit { width: 492px; height: 91px; }
+
+.article { width: 920px; color: #757575; margin-bottom: 98px; }
+.article .desc { font-size: 1.6em; line-height: 1.45em; }
+.article .symbole_table { padding: 70px 0 40px; }
+.article .symbole_table table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.article .symbole_table th, .article .symbole_table td { line-height: 20px; padding: 10px 0; text-align: center; font-weight: normal; font-size: 1.2em; }
+.article .symbole_table th { background-color: #299be1; color: #fff; border: 1px solid #299be1; }
+.article .symbole_table th:first-child { border-right: 1px solid #e4e4e4; }
+.article .symbole_table td { border: 1px solid #e4e4e4; color: #666; }
+.article .symbole_table tfoot td { border: 0; text-align: left; font-size: 1em; }
+
+.symbole_thumbnail .grade { margin-left: 10px; width: 931px; margin-left: -10px; }
+.symbole_thumbnail .grade li { width: 300px; height: 350px; margin-left: 10px; float: left; }
+.symbole_thumbnail .grade .thumb_img { width: 300px; height: 181px; margin-bottom: 15px; }
+.symbole_thumbnail .grade strong { font-size: 1.2em; height: 22px; display: block; line-height: 22px; padding-left: 9px; margin-bottom: 10px; position: relative; zoom: 1; }
+.symbole_thumbnail .grade strong .sup { font-size: 0.65em; position: relative; top: -6px; }
+.symbole_thumbnail .grade .credit { position: absolute; right: 0; top: 0; border-radius: 4px; color: #fff; font-size: 0.8em; line-height: 22px; height: 22px; padding: 0 8px; font-weight: normal; }
+.symbole_thumbnail .grade .credit em { font-weight: bold; }
+.symbole_thumbnail .grade .subs { padding-left: 10px; color: #757575; font-size: 1em; line-height: 1.4em; }
+.symbole_thumbnail .grade .preview .thumb_img { background-position: 0 0; }
+.symbole_thumbnail .grade .preview strong { color: #5ba432; }
+.symbole_thumbnail .grade .preview .credit { background-color: #5ba432; }
+.symbole_thumbnail .grade .classic .thumb_img { background-position: -311px 0; }
+.symbole_thumbnail .grade .classic strong { color: #389bd1; }
+.symbole_thumbnail .grade .classic .credit { background-color: #389bd1; }
+.symbole_thumbnail .grade .select .thumb_img { background-position: -621px 0; }
+.symbole_thumbnail .grade .select strong { color: #f1711a; }
+.symbole_thumbnail .grade .select .credit { background-color: #f1711a; }
+.symbole_thumbnail .grade .elite .thumb_img { background-position: 0 -206px; }
+.symbole_thumbnail .grade .elite strong { color: #58595b; }
+.symbole_thumbnail .grade .elite .credit { background-color: #58595b; }
+.symbole_thumbnail .grade .elite_plus .thumb_img { background-position: -311px -206px; }
+.symbole_thumbnail .grade .elite_plus strong { color: #a1231d; }
+.symbole_thumbnail .grade .elite_plus .credit { background-color: #a1231d; }
+.symbole_thumbnail .grade .zenith .thumb_img { background-position: -621px -206px; }
+.symbole_thumbnail .grade .zenith strong { color: #0a0a0a; }
+.symbole_thumbnail .grade .zenith .credit { background-color: #0a0a0a; }
+
+.symbole_thumbnail .btns { text-align: center; }
+.symbole_thumbnail .view_membership, .symbole_thumbnail .ask_membership { width: 380px; height: 68px; background-position: 0 -407px; margin-right: 16px; }
+.symbole_thumbnail .ask_membership { width: 400px; background-position: -400px -407px; margin-right: 0; }
 
 /*# sourceMappingURL=celebrity.css.map */
