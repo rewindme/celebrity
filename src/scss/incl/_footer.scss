@@ -1,0 +1,38 @@
+@charset "utf-8";
+$footer-color:#002f63;
+.footer{
+	@extend %layout;width:1000px;margin-bottom:40px;
+	.bot_menu{border-top:6px solid $footer-color;padding:23px 0;line-height:18px;font-size:0;text-align:center}
+	.bot_menu a{color:$footer-color;font-size:13px}
+	.bot_menu .bar{height:14px;@extend %inline-block;border-right:1px solid $footer-color;padding-left:15px;margin-right:14px;vertical-align:top;position:relative;top:2px}
+	.footer_cover{background-color:$footer-color;@extend %clear;position:relative;zoom:1}
+	.bi{
+		float:left;padding:28px 68px 28px 26px;
+		i{@extend %sp-gnb;width:160px;height:34px;background-position:0 -70px}		
+	}
+	.copyright{
+		overflow:hidden;padding:33px 0 0 0;color:#fff;
+		a{color:#fff;font-size:0.9em}
+		.bar{padding:0 10px;font-size:0.9em}
+		p{font-size:0.8em;padding-top:10px}
+	}
+	.connect_sns{position:absolute;right:0;top:0;padding:29px 29px 29px 0}
+	.sns{color:#fff;@extend %inline-block;line-height:26px;padding:3px 0;margin-right:7px}
+	.sns a{margin-left:5px}
+	.youtube i{@extend %sp-gnb;width:26px;height:26px;background-position:-180px -70px}
+	.facebook i{@extend %sp-gnb;width:26px;height:26px;background-position:-215px -70px}
+	.twitter i{@extend %sp-gnb;width:33px;height:26px;background-position:-249px -70px}
+	
+}
+
+.combobox{
+	@extend %inline-block;position:relative;zoom:1;
+	.cb-button{border:1px solid #fff;background:transparent;color:#fff;height:30px;line-height:30px;padding:0 12px;box-sizing:content-box;cursor:pointer}
+	.arrow{width:11px;height:30px;@extend %sp-gnb;background-position:-306px -68px;margin-left:50px}
+	.cb-layer{position:absolute;width:100%;top:100%;margin-top:-1px}
+	.cb-layer ul{border:1px solid #fff;background-color:$footer-color}
+	.cb-layer a{color:#fff;display:block;padding:6px 12px 5px;}
+	.cb-layer a:hover{color:$footer-color;background-color:#fff}
+	
+}
+	

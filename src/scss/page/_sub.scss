@@ -1,12 +1,13 @@
 @charset "utf-8";
 $blue:#299be1;
-.page_club .header{margin-bottom:299px}
+
 .container{@extend %layout;width:1000px;background-color:#fff;border-top:7px solid $blue}
 
 %sub-page{
+	.header{margin-bottom:299px}
 	.slider-body{height:545px}
 	.slider-body .cover{width:920px;height:545px}
-	.slider-body .caption{color:#000;font-size:1.45em;line-height:45px;height:45px;color:#757575;padding-right:10px}
+	.slider-body .caption{color:#000;font-size:1.3em;line-height:45px;height:45px;color:#757575;padding-right:10px}
 	.slider-nav{
 		left:0;margin:0;background-color:#fff;padding:0 20px 0 0;
 		button{@extend %sp-slide;width:26px;height:26px;background-position:4px -22px}
@@ -19,19 +20,24 @@ $blue:#299be1;
 
 .section_head{
 	padding:40px;
-/* 	.tit{@extend %blind} */
-	.tit{font-style:normal;font-size:2.7em;color:$blue;font-weight:normal;line-height:1.3em}
+	.tit{@extend %blind}
+// 텍스트형 타이틀	.tit{font-style:normal;font-size:2.7em;color:$blue;font-weight:normal;line-height:1.3em}
 	.section_list{
 		border-collapse:collapse;table-layout:fixed;position:absolute;right:41px;top:43px;
-		td{border:1px solid #e4e4e4;color:#999;font-size:0.85em;text-align:center;line-height:18px;padding:5px 5px;letter-spacing:-1px;min-width:118px}
-		td.selected{border:1px solid $blue;background-color:$blue;color:#fff}
+		td{border:1px solid #e4e4e4;text-align:center;line-height:18px;padding:5px 5px;letter-spacing:-1px;min-width:118px}
+		td a{color:#999;font-size:0.85em;}
+		td.selected{border:1px solid $blue;background-color:$blue}
+		td.selected a{color:#fff}
 	}
 }
 
 .page_club{
 	@extend %sub-page;
-	.section_head .tit{width:492px;height:91px}
-/* 	.section_head .tit{background:url(../im/tit_head_club.png) no-repeat;width:492px;height:91px} */
+	.section_head .tit{background:url(../im/tit_head_club.png) no-repeat;width:492px;height:91px}
+}
+.page_room{
+	@extend %sub-page;
+	.section_head .tit{background:url(../im/tit_head_room.png) no-repeat;width:380px;height:91px}
 }
 
 
@@ -39,62 +45,5 @@ $blue:#299be1;
 	@extend %layout;width:920px;color:#757575;margin-bottom:98px;
 	.desc{font-size:1.6em;line-height:1.45em}
 	.sub_tit{@extend %sub-tit}
-	.symbole_table{
-		padding:70px 0 40px;
-		table{width:100%;table-layout:fixed;border-collapse:collapse}
-		caption{@extend %sub-tit}
-		th,td{line-height:20px;padding:10px 0;text-align:center;font-weight:normal;font-size:1.2em}
-		th{background-color:$blue;color:#fff;border:1px solid $blue;}
-		th:first-child{border-right:1px solid #e4e4e4}
-		td{border:1px solid #e4e4e4;color:#666;}
-		tfoot td{border:0;text-align:left;font-size:1em}
-	}
+	.info_list{left:-19px;padding-top:50px}
 }
-.symbole_thumbnail .grade{
-	margin-left:10px;width:931px;margin-left:-10px;@extend %clear;
-	li{width:300px;height:350px;margin-left:10px;float:left;}
-	.thumb_img{@extend %sp-grade;@extend %inline-block;width:300px;height:181px;margin-bottom:15px}
-	strong{font-size:1.2em;height:22px;display:block;line-height:22px;padding-left:9px;margin-bottom:10px;position:relative;zoom:1}
-	strong .sup{font-size:0.65em;position:relative;top:-6px}
-	.credit{position:absolute;right:0;top:0;border-radius:4px;color:#fff;font-size:0.8em;line-height:22px;height:22px;padding:0 8px;font-weight:normal}
-	.credit em{font-weight:bold}
-	.subs{padding-left:10px;@extend %inline-block;color:#757575;font-size:1em;line-height:1.4em}
-	
-	.preview{
-		.thumb_img{background-position:0 0}
-		strong{color:#5ba432}
-		.credit{background-color:#5ba432}
-	}
-	.classic{
-		.thumb_img{background-position:-311px 0}
-		strong{color:#389bd1}
-		.credit{background-color:#389bd1}
-	}
-	.select{
-		.thumb_img{background-position:-621px 0}
-		strong{color:#f1711a}
-		.credit{background-color:#f1711a}
-	}
-	.elite{
-		.thumb_img{background-position:0 -206px}
-		strong{color:#58595b}
-		.credit{background-color:#58595b}
-	}
-	.elite_plus{
-		.thumb_img{background-position:-311px -206px}
-		strong{color:#a1231d}
-		.credit{background-color:#a1231d}
-	}
-	.zenith{
-		.thumb_img{background-position:-621px -206px}
-		strong{color:#0a0a0a}
-		.credit{background-color:#0a0a0a}
-	}
-}
-
-.symbole_thumbnail{
-	.btns{text-align:center}
-	.view_membership,.ask_membership{@extend %sp-grade;width:380px;height:68px;@extend %inline-block;@extend %blind;background-position:0 -407px;margin-right:16px}
-	.ask_membership{width:400px;background-position:-400px -407px;margin-right:0}
-}
-

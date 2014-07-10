@@ -15,7 +15,7 @@
 }
 .slider-nav{
 	position:absolute;bottom:7px;left:50%;margin-left:-100px;font-size:0;
-	button{@extend %sp-slide;width:25px;height:24px;background-position:4px 4px}
+	button{@extend %sp-slide;width:25px;height:24px;background-position:4px 4px;cursor:pointer}
 	button span{@extend %hidden}
 	button.av{background-position:-23px 4px}
 }

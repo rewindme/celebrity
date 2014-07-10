@@ -1,0 +1,83 @@
+//아쿠아스파 by 엘레미스
+.symbol_table{
+	padding:70px 0 40px;
+	table{width:100%;table-layout:fixed;border-collapse:collapse}
+	caption{@extend %sub-tit}
+	th,td{line-height:20px;padding:10px 0;text-align:center;font-weight:normal;font-size:1.2em}
+	th{background-color:$blue;color:#fff;border:1px solid $blue;}
+	th:first-child{border-right:1px solid #e4e4e4}
+	td{border:1px solid #e4e4e4;color:#666;}
+	tfoot td{border:0;text-align:left;font-size:1em}
+}
+
+// 캡틴스 클럽 멤버쉽 등급별 혜택 
+.symbol_thumbnail{
+	.grade{
+		width:931px;margin-left:-10px;margin-bottom:42px;@extend %clear;
+		li{width:300px;height:350px;margin-left:10px;float:left;}
+		.thumb_img{@extend %sp-grade;@extend %inline-block;width:300px;height:181px;margin-bottom:15px}
+		strong{font-size:1.2em;height:22px;display:block;line-height:22px;padding-left:9px;margin-bottom:10px;position:relative;zoom:1}
+		strong .sup{font-size:0.65em;position:relative;top:-6px}
+		.credit{position:absolute;right:0;top:0;border-radius:4px;color:#fff;font-size:0.8em;line-height:22px;height:22px;padding:0 8px;font-weight:normal}
+		.credit em{font-weight:bold}
+		.subs{padding-left:10px;@extend %inline-block;color:#757575;font-size:1em;line-height:1.4em}
+		
+		.preview{
+			.thumb_img{background-position:0 0}
+			strong{color:#5ba432}
+			.credit{background-color:#5ba432}
+		}
+		.classic{
+			.thumb_img{background-position:-311px 0}
+			strong{color:#389bd1}
+			.credit{background-color:#389bd1}
+		}
+		.select{
+			.thumb_img{background-position:-621px 0}
+			strong{color:#f1711a}
+			.credit{background-color:#f1711a}
+		}
+		.elite{
+			.thumb_img{background-position:0 -206px}
+			strong{color:#58595b}
+			.credit{background-color:#58595b}
+		}
+		.elite_plus{
+			.thumb_img{background-position:-311px -206px}
+			strong{color:#a1231d}
+			.credit{background-color:#a1231d}
+		}
+		.zenith{
+			.thumb_img{background-position:-621px -206px}
+			strong{color:#0a0a0a}
+			.credit{background-color:#0a0a0a}
+		}
+	}
+	.btns{text-align:center}
+	.view_membership,.ask_membership{@extend %sp-grade;width:380px;height:68px;@extend %inline-block;@extend %blind;background-position:0 -407px;margin-right:16px}
+	.ask_membership{width:400px;background-position:-400px -407px;margin-right:0}
+}
+
+// 섬네일 리스트 
+.info_list{
+	@extend %layout;width:954px;@extend %clear;margin-bottom:19px;
+	li{padding:19px;float:left;}
+	.thumbnail{
+		width:280px;height:190px;position:relative;zoom:1;cursor:pointer;
+		img{vertical-align:top}
+		.subject{position:absolute;left:0;bottom:0;width:100%;height:35px;color:#fff;z-index:20;line-height:35px;text-indent:12px;font-size:0.9em}
+		.deco{position:absolute;left:0;bottom:0;width:100%;height:35px;background-color:#002859;opacity:0.9;filter:alpha(opacity=90);z-index:10}
+		.desc{position:absolute;top:50px;left:0;padding:0 5px 0 17px;font-size:0.8em;line-height:1.7em;z-index:20}
+		.btn_more{background:url(../im/img_more.png) no-repeat;width:89px;height:27px;z-index:20;@extend %blind;display:block;margin-top:15px}
+		.desc,.btn_more{display:none;color:#fff}
+		
+	}
+	.hover .thumbnail{
+		.deco{top:0;height:100%}
+		.subject{top:0;bottom:auto;font-size:1.45em;font-weight:normal;padding-top:10px;text-indent:17px}
+		.desc,.btn_more{display:block}
+		.en{display:none}
+	}	
+}
+
+
