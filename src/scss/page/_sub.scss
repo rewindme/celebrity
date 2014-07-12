@@ -39,6 +39,10 @@ $blue:#299be1;
 	@extend %sub-page;
 	.section_head .tit{background:url(../im/tit_head_room.png) no-repeat;width:380px;height:91px}
 }
+.page_sail{
+	@extend %sub-page;
+	.section_head .tit{background:url(../im/tit_head_sail.png) no-repeat;width:380px;height:91px}
+}
 
 
 .article{
