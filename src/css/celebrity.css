@@ -23,12 +23,13 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .blind, .u_skip { visibility: hidden; overflow: hidden; position: absolute; left: -999em; width: 0; height: 0; font-size: 0; color: transparent; line-height: 0; }
 
-.footer .bot_menu .bar, .footer .sns, .combobox, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow, .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .header .bi i, .header .gnb, .header .gnb li, .wrap, .symbol_thumbnail .grade .thumb_img, .symbol_thumbnail .grade .subs, .symbol_thumbnail .view_membership, .symbol_thumbnail .ask_membership, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
+.footer .bot_menu .bar, .footer .sns, .combobox, .footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow, .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_res .slider-nav button, .header .bi i, .header .gnb, .header .gnb li, .wrap, .symbol_thumbnail .grade .thumb_img, .symbol_thumbnail .grade .subs, .symbol_thumbnail .view_membership, .symbol_thumbnail .ask_membership, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
 
 .wrap { background: url(../im/body_bg/bg_main_body.jpg) no-repeat center top; }
 .wrap.page_club { background-image: url(../im/body_bg/bg_club_body.jpg); }
 .wrap.page_room { background-image: url(../im/body_bg/bg_room_body.jpg); }
 .wrap.page_sail { background-image: url(../im/body_bg/bg_sail_body.jpg); }
+.wrap.page_res { background-image: url(../im/body_bg/bg_res_body.jpg); }
 
 .slider-loading { position: absolute; top: 0; left: 0; }
 .slider-loading .dimmed, .slider-loading .loading { position: absolute; display: block; top: 0; left: 0; width: 100%; height: 100%; }
@@ -71,11 +72,11 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .combobox .cb-layer a { color: #fff; display: block; padding: 6px 12px 5px; }
 .combobox .cb-layer a:hover { color: #002f63; background-color: #fff; }
 
-.footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow, .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .header .bi i, .header .gnb, .header .gnb li { background-image: url(../im/sp_gnb.png); background-repeat: no-repeat; vertical-align: top; }
+.footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox .arrow, .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_res .slider-nav button, .header .bi i, .header .gnb, .header .gnb li { background-image: url(../im/sp_gnb.png); background-repeat: no-repeat; vertical-align: top; }
 
-.slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
+.slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_res .slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
 
-.footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox i.arrow, .header .bi i, .header i.gnb, .slider-nav button i, .page_club .slider-nav button i, .page_room .slider-nav button i, .page_sail .slider-nav button i, .section_head .tit i, .symbol_thumbnail .view_membership i, .symbol_thumbnail .ask_membership i, .info_list .thumbnail .btn_more i, .info_list .thumbnail .btn_more_bahamas i, .info_list .thumbnail .btn_more_bermuda i, .slider-nav button span { font: 0/0 a; color: transparent; }
+.footer .bi i, .footer .youtube i, .footer .facebook i, .footer .twitter i, .combobox i.arrow, .header .bi i, .header i.gnb, .slider-nav button i, .page_club .slider-nav button i, .page_room .slider-nav button i, .page_sail .slider-nav button i, .page_res .slider-nav button i, .section_head .tit i, .symbol_thumbnail .view_membership i, .symbol_thumbnail .ask_membership i, .info_list .thumbnail .btn_more i, .info_list .thumbnail .btn_more_bahamas i, .info_list .thumbnail .btn_more_bermuda i, .slider-nav button span { font: 0/0 a; color: transparent; }
 
 .footer .footer_cover, .symbol_thumbnail .grade, .info_list { zoom: 1; }
 .footer .footer_cover:after, .symbol_thumbnail .grade:after, .info_list:after { content: ''; clear: both; height: 0; display: block; visibility: hidden; }
@@ -106,13 +107,13 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .container { width: 1000px; background-color: #fff; border-top: 7px solid #299be1; }
 
-.page_club .header, .page_room .header, .page_sail .header { margin-bottom: 299px; }
-.page_club .slider-body, .page_room .slider-body, .page_sail .slider-body { height: 545px; }
-.page_club .slider-body .cover, .page_room .slider-body .cover, .page_sail .slider-body .cover { width: 920px; height: 545px; }
-.page_club .slider-body .caption, .page_room .slider-body .caption, .page_sail .slider-body .caption { color: #000; font-size: 1.3em; line-height: 45px; height: 45px; color: #757575; padding-right: 10px; }
-.page_club .slider-nav, .page_room .slider-nav, .page_sail .slider-nav { left: 0; margin: 0; background-color: #fff; padding: 0 20px 0 0; }
-.page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button { width: 26px; height: 26px; background-position: 4px -22px; }
-.page_club .slider-nav button.av, .page_room .slider-nav button.av, .page_sail .slider-nav button.av { background-position: -23px -22px; }
+.page_club .header, .page_room .header, .page_sail .header, .page_res .header { margin-bottom: 299px; }
+.page_club .slider-body, .page_room .slider-body, .page_sail .slider-body, .page_res .slider-body { height: 545px; }
+.page_club .slider-body .cover, .page_room .slider-body .cover, .page_sail .slider-body .cover, .page_res .slider-body .cover { width: 920px; height: 545px; }
+.page_club .slider-body .caption, .page_room .slider-body .caption, .page_sail .slider-body .caption, .page_res .slider-body .caption { color: #000; font-size: 1.3em; line-height: 45px; height: 45px; color: #757575; padding-right: 10px; }
+.page_club .slider-nav, .page_room .slider-nav, .page_sail .slider-nav, .page_res .slider-nav { left: 0; margin: 0; background-color: #fff; padding: 0 20px 0 0; }
+.page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_res .slider-nav button { width: 26px; height: 26px; background-position: 4px -22px; }
+.page_club .slider-nav button.av, .page_room .slider-nav button.av, .page_sail .slider-nav button.av, .page_res .slider-nav button.av { background-position: -23px -22px; }
 
 .article .sub_tit, .symbol_table caption { color: #299be1; font-size: 1.6em; text-align: left; padding-bottom: 8px; font-weight: normal; }
 
@@ -130,6 +131,8 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .page_room .section_head .tit { background: url(../im/tit_head_room.png) no-repeat; width: 380px; height: 91px; }
 
 .page_sail .section_head .tit { background: url(../im/tit_head_sail.png) no-repeat; width: 380px; height: 91px; }
+
+.page_res .section_head .tit { background: url(../im/tit_head_res.png) no-repeat; width: 440px; height: 91px; }
 
 .article { width: 920px; color: #757575; margin-bottom: 98px; }
 .article .desc { font-size: 1.6em; line-height: 1.45em; }
