@@ -17,6 +17,10 @@ $(document).ready(function(){
 	$('.footer').on('click','.combobox .cb-button',function(){
 		$(this).parent().find('.cb-layer').toggle();
 	})
+	
+	$('.cb-label').on('click',function(){
+		$(this).parent().toggleClass('open');
+	})
 })
 
 // ajax include

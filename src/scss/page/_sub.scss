@@ -47,10 +47,36 @@ $blue:#299be1;
 	@extend %sub-page;
 	.section_head .tit{background:url(../im/tit_head_res.png) no-repeat;width:440px;height:91px}
 }
+.page_ship{
+	@extend %sub-page;
+	.section_head .tit{background:url(../im/tit_head_ship.png) no-repeat;width:490px;height:91px}
+}
 
 .article{
-	@extend %layout;width:920px;color:#757575;margin-bottom:98px;
+	@extend %layout;width:920px;color:#757575;margin-bottom:98px;z-index:20;
 	.desc{font-size:1.6em;line-height:1.45em}
 	.sub_tit{@extend %sub-tit}
 	.info_list{left:-19px;padding-top:50px}
 }
+
+.symbol_ship{
+	background-repeat:no-repeat;width:920px;height:370px;margin-top:50px;position:relative;zoom:1;
+	.tit{color:#fff;font-size:1.6em;margin-bottom:10px;padding:32px 0 0 44px}
+	.desc{color:#fff;font-size:1.15em;line-height:1.5em;width:350px;padding-left:44px}
+	&.solstice_class{background-image:url(../im/ship/img_ship_solstice.jpg);z-index:19}
+	&.millennium_class{background-image:url(../im/ship/img_ship_millennium.jpg);z-index:18}
+	&.century_class{background-image:url(../im/ship/img_ship_century.jpg);z-index:17}
+	&.xpedition_class{background-image:url(../im/ship/img_ship_xpedition.jpg);z-index:16}
+	
+	.combox-box{
+		position:absolute;top:289px;left:45px;@extend %inline-block;
+		.cb-label{width:100%;text-align:left;background-color:#299be1;color:#fff;border:0;border-radius:0;padding:0 50px 0 15px;height:50px;line-height:50px;position:relative;zoom:1;font-size:1.2em;cursor:pointer}
+		.arrow{@extend %sp-gnb;width:35px;height:32px;background-position:-339px -72px;position:absolute;right:14px;top:9px}
+		.cb-list{background-color:#299be1;height:0;overflow:hidden}
+		.cb-list a{color:#fff;display:block;height:38px;line-height:38px;padding:0 25px 0 15px;font-size:1.2em;}
+		.cb-list a .en{font-size:0.7em}
+		.cb-list a:hover{background-color:#002f63}		
+		&.open .cb-list{height:auto;overflow:visible}
+	}
+}
+
