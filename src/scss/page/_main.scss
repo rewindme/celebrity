@@ -1,15 +1,5 @@
 @charset "utf-8";
 
-%sp-gnb{background-image:url(../im/sp_gnb.png);background-repeat:no-repeat;@extend %inline-block;vertical-align:top}
-%sp-slide{@extend %sp-gnb;background-image:url(../im/sp_slide.png);border:0;@extend %blind;background-color:transparent}
-i%sp-gnb,%blind i,%hidden{font:0/0 a;color:transparent;}
-
-%clear{
-	zoom:1;
-	&:after{content:'';clear:both;height:0;display:block;visibility:hidden}
-}
-
-%layout{width:916px;margin:0 auto;position:relative;zoom:1}
 
 .wrap{@extend %inline-block;min-width:100%}
 
@@ -35,7 +25,7 @@ i%sp-gnb,%blind i,%hidden{font:0/0 a;color:transparent;}
 			.sub{display:block}
 		}
 		.sub{
-			position:absolute;top:0;left:0;width:100%;background-color:#002859;padding-top:52px;z-index:10;line-height:normal;
+			position:absolute;top:0;left:0;width:100%;background-color:#002859;padding-top:55px;padding-bottom:14px;z-index:10;line-height:normal;
 			li{background:none transparent;height:auto;line-height:35px;padding-bottom:3px}
 			a{font-size:1.1em;&:hover{color:#299be1}}
 

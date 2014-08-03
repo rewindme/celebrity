@@ -10,7 +10,7 @@
 	/* .cover{@extend %inline-block;white-space:nowrap;font-size:0;position:relative;cursor: move} */
 	.cover{cursor:move;position:absolute;left:0;top:0;width:916px;height:418px;overflow:hidden}
 	.item{position:absolute}
-	.caption{position:absolute;bottom:0;right:0;text-align:right;color:#fff}
+	.caption{position:absolute;bottom:9px;right:0;text-align:right;color:#fff;background-color:#002f63;padding:3px 11px 4px 5px}
 	img{vertical-align:top}
 }
 .slider-nav{
