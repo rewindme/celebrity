@@ -7,7 +7,7 @@ $footer-color:#002f63;
 	.bot_menu .bar{height:14px;@extend %inline-block;border-right:1px solid $footer-color;padding-left:15px;margin-right:14px;vertical-align:top;position:relative;top:2px}
 	.footer_cover{background-color:$footer-color;@extend %clear;position:relative;zoom:1}
 	.bi{
-		float:left;padding:28px 68px 28px 26px;
+		float:left;padding:28px 44px 28px 39px;
 		i{@extend %sp-gnb;width:160px;height:34px;background-position:0 -70px}		
 	}
 	.copyright{
@@ -15,7 +15,7 @@ $footer-color:#002f63;
 		address{font-size:1em;color:#fff;display:block;margin-bottom:5px}
 /* 		a{color:#fff;font-size:0.9em} */
 /* 		.bar{padding:0 10px;font-size:0.9em} */
-		p{font-size:0.7em;line-height:14px;color:#d1d5dd}
+		p{font-size:0.85em;line-height:15px;color:#d1d5dd}
 	}
 	.connect_sns{position:absolute;right:0;top:0;padding:14px 29px 29px 0}
 	.sns{color:#fff;@extend %inline-block;line-height:20px;padding:3px 0;font-size:0.9em}

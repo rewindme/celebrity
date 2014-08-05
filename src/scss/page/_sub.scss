@@ -7,7 +7,7 @@ $blue:#299be1;
 	.header{margin-bottom:299px}
 	.slider-body{height:545px}
 	.slider-body .cover{width:920px;height:545px}
-	.slider-body .caption{color:#000;font-size:1.3em;line-height:45px;height:45px;color:#757575;padding-right:10px}
+	.slider-body .caption{color:#000;font-size:1.3em;line-height:45px;height:45px;color:#757575;padding:0 10px 0 0;bottom:0;background-color:transparent}
 	.slider-nav{
 		left:0;margin:0;background-color:#fff;padding:0 20px 0 0;
 		button{@extend %sp-slide;width:26px;height:26px;background-position:4px -22px}
@@ -20,7 +20,7 @@ $blue:#299be1;
 
 .section_head{
 	padding:40px;
-	.tit{@extend %blind}
+	.tit{@extend %blind;height:91px;background-repeat:no-repeat}
 // 텍스트형 타이틀	.tit{font-style:normal;font-size:2.7em;color:$blue;font-weight:normal;line-height:1.3em}
 	.section_list{
 		border-collapse:collapse;table-layout:fixed;position:absolute;right:41px;top:43px;
@@ -30,31 +30,40 @@ $blue:#299be1;
 		td.selected a{color:#fff}
 	}
 }
+.page_intro{
+	@extend %sub-page;
+	.section_head .tit{background-image:url(../im/tit_head_intro.png);width:420px}
+}
 
 .page_club{
 	@extend %sub-page;
-	.section_head .tit{background:url(../im/tit_head_club.png) no-repeat;width:492px;height:91px}
+	.section_head .tit{background-image:url(../im/tit_head_club.png);width:492px}
 }
 .page_room{
 	@extend %sub-page;
-	.section_head .tit{background:url(../im/tit_head_room.png) no-repeat;width:380px;height:91px}
+	.section_head .tit{background-image:url(../im/tit_head_room.png);width:380px}
 }
 .page_sail{
 	@extend %sub-page;
-	.section_head .tit{background:url(../im/tit_head_sail.png) no-repeat;width:380px;height:91px}
+	.section_head .tit{background-image:url(../im/tit_head_sail.png);width:380px}
 }
+.page_activity{
+	@extend %sub-page;
+	.section_head .tit{background-image:url(../im/tit_head_activity.png);width:299px}
+}
+
 .page_res{
 	@extend %sub-page;
-	.section_head .tit{background:url(../im/tit_head_res.png) no-repeat;width:440px;height:91px}
+	.section_head .tit{background-image:url(../im/tit_head_res.png);width:440px}
 }
 .page_ship{
 	@extend %sub-page;
-	.section_head .tit{background:url(../im/tit_head_ship.png) no-repeat;width:490px;height:91px}
+	.section_head .tit{background-image:url(../im/tit_head_ship.png);width:490px}
 }
 
 .article{
 	@extend %layout;width:920px;color:#757575;margin-bottom:98px;z-index:20;
-	.desc{font-size:1.6em;line-height:1.45em}
+	.desc{font-size:1.6em;line-height:1.45em;color:#666}
 	.sub_tit{@extend %sub-tit}
 	.info_list{left:-19px;padding-top:50px}
 }
