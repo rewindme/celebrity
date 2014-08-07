@@ -5,7 +5,8 @@ $blue:#299be1;
 
 %sub-page{
 	.header{margin-bottom:299px}
-	.slider-body .cover{width:920px}
+	.slider-body{height:545px}
+	.slider-body .cover{width:920px;height:545px}
 	/*
 .slider-body{height:545px}
 	.slider-body .cover{width:920px;height:545px}
