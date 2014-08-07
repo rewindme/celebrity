@@ -53,32 +53,32 @@
 		        <div u="slides" class="cover">
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_res_01.jpg" alt="실크 하베스트" width="920" height="500">
-		            		<span class="caption">실크 하베스트 | Silk Harvest</span>
+		            		<img src="im/hero/img_sub_res_01.jpg" alt="블루레스토랑 | Blu Specialty Restaurant" width="920" height="500">
+		            		<span class="caption">블루레스토랑 | Blu Specialty Restaurant</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_res_02.jpg" alt="블루" width="920" height="500">		            		
-		            		<span class="caption">블루 | Blu</span>
+		            		<img src="im/hero/img_sub_res_02.jpg" alt="다이닝 와인 타워 | Grand Eperny Wine Tower" width="920" height="500">		            		
+		            		<span class="caption">다이닝 와인 타워 | Grand Eperny Wine Tower</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_res_03.jpg" alt="큐진" width="920" height="500">		            		
+		            		<img src="im/hero/img_sub_res_03.jpg" alt="큐진 | Qsine" width="920" height="500">		            		
 		            		<span class="caption">큐진 | Qsine</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_res_04.jpg" alt="비스트로 온 파이브" width="920" height="500">		            		
-		            		<span class="caption">비스트로 온 파이브 | Bistro on Five</span>
+		            		<img src="im/hero/img_sub_res_04.jpg" alt="양고기스테이크 | Lamb Main dish" width="920" height="500">		            		
+		            		<span class="caption">양고기스테이크 | Lamb Main dish</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_res_05.jpg" alt="투스칸 그릴" width="920" height="500">		            		
-		            		<span class="caption">투스칸 그릴 | Tuscan Grille</span>
+		            		<img src="im/hero/img_sub_res_05.jpg" alt="투스칸 그릴 | Tuscan Grill" width="920" height="500">		            		
+		            		<span class="caption">투스칸 그릴 | Tuscan Grill</span>
 		            	</a>
 		            </div>
 		        </div>
@@ -231,22 +231,7 @@
 <script>
 //slider setting
 jQuery(document).ready(function ($) {
-    var options = {
-        $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-        $BulletNavigatorOptions: {
-            $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
-            $ChanceToShow: 2                                //[Required] 0 Never, 1 Mouse Over, 2 Always
-        },
-
-        $ArrowNavigatorOptions: {
-            $Class: $JssorArrowNavigator$,              //[Required] Class to create arrow navigator instance
-            $ChanceToShow: 1                                //[Required] 0 Never, 1 Mouse Over, 2 Always
-        }
-    };
-
-    var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-    
-    // header,footer include
+	// header,footer include
     load_section([
 		{section:'.header',fileName:'00_header.html'},
 		{section:'.footer',fileName:'00_footer.html'}

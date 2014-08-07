@@ -59,26 +59,32 @@
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_sail_02.jpg" alt="후지 산" width="920" height="500">		            		
-		            		<span class="caption">후지 산 | Mount Fuji</span>
+		            		<img src="im/hero/img_sub_sail_02.jpg" alt="빌프랑쉐" width="920" height="500">		            		
+		            		<span class="caption">빌프랑쉐 | Ville France</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_sail_03.jpg" alt="파리" width="920" height="500">		            		
-		            		<span class="caption">파리 | Paris</span>
+		            		<img src="im/hero/img_sub_sail_03.jpg" alt="이스탄불" width="920" height="500">		            		
+		            		<span class="caption">이스탄불 | Istanbul</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_sail_04.jpg" alt="라바디" width="920" height="500">		            		
-		            		<span class="caption">라바디 | Labadee</span>
+		            		<img src="im/hero/img_sub_sail_04.jpg" alt="카리브해 | Caribbean" width="920" height="500">		            		
+		            		<span class="caption">카리브해 | Caribbean</span>
 		            	</a>
 		            </div>
 		            <div class="item">
 		            	<a href="#">
-		            		<img src="im/hero/img_sub_sail_05.jpg" alt="포트빌라" width="920" height="500">		            		
-		            		<span class="caption">포트빌라 | Port Vila</span>
+		            		<img src="im/hero/img_sub_sail_05.jpg" alt="알래스카 | Alaska" width="920" height="500">		            		
+		            		<span class="caption">알래스카 | Alaska</span>
+		            	</a>
+		            </div>
+		            <div class="item">
+		            	<a href="#">
+		            		<img src="im/hero/img_sub_sail_06.jpg" alt="듀브로브니크 | Dubrovnik Croatia" width="920" height="500">		            		
+		            		<span class="caption">듀브로브니크 | Dubrovnik Croatia</span>
 		            	</a>
 		            </div>
 		        </div>
@@ -278,21 +284,6 @@
 <script>
 //slider setting
 jQuery(document).ready(function ($) {
-    var options = {
-        $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-        $BulletNavigatorOptions: {
-            $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
-            $ChanceToShow: 2                                //[Required] 0 Never, 1 Mouse Over, 2 Always
-        },
-
-        $ArrowNavigatorOptions: {
-            $Class: $JssorArrowNavigator$,              //[Required] Class to create arrow navigator instance
-            $ChanceToShow: 1                                //[Required] 0 Never, 1 Mouse Over, 2 Always
-        }
-    };
-
-    var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-    
     // header,footer include
     load_section([
 		{section:'.header',fileName:'00_header.html'},
