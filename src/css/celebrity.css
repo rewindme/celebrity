@@ -54,8 +54,8 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .slider-body { height: 463px; overflow: hidden; zoom: 1; background-color: #fff; }
 .slider-body .cover { cursor: move; position: absolute; left: 0; top: 0; width: 916px; height: 463px; overflow: hidden; }
-.slider-body .item { position: absolute; }
-.slider-body .caption { position: absolute; bottom: 0; right: 0; text-align: right; line-height: 45px; height: 45px; color: #757575; font-size: 1.3em; background-color: transparent; padding: 0 10px 0 0; }
+.slider-body .item { position: absolute; background-color: #fff; }
+.slider-body .caption { position: absolute; bottom: 0; right: 0; text-align: right; line-height: 45px; height: 45px; color: #757575; font-size: 1.1em; padding: 0 10px 0 0; }
 .slider-body img { vertical-align: top; }
 
 .slider-nav { position: absolute; bottom: 9px; left: 0; margin: 0; font-size: 0; background-color: #fff; padding: 0 20px 0 5px; }
@@ -127,6 +127,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .page_intro .header, .page_club .header, .page_room .header, .page_sail .header, .page_activity .header, .page_spa .header, .page_enter .header, .page_res .header, .page_ship .header { margin-bottom: 299px; }
 .page_intro .slider-body, .page_club .slider-body, .page_room .slider-body, .page_sail .slider-body, .page_activity .slider-body, .page_spa .slider-body, .page_enter .slider-body, .page_res .slider-body, .page_ship .slider-body { height: 545px; }
 .page_intro .slider-body .cover, .page_club .slider-body .cover, .page_room .slider-body .cover, .page_sail .slider-body .cover, .page_activity .slider-body .cover, .page_spa .slider-body .cover, .page_enter .slider-body .cover, .page_res .slider-body .cover, .page_ship .slider-body .cover { width: 920px; height: 545px; }
+.page_intro .slider-body .caption, .page_club .slider-body .caption, .page_room .slider-body .caption, .page_sail .slider-body .caption, .page_activity .slider-body .caption, .page_spa .slider-body .caption, .page_enter .slider-body .caption, .page_res .slider-body .caption, .page_ship .slider-body .caption { font-size: 1.3em; }
 .page_intro .hero, .page_club .hero, .page_room .hero, .page_sail .hero, .page_activity .hero, .page_spa .hero, .page_enter .hero, .page_res .hero, .page_ship .hero { height: 545px; }
 
 .article .sub_tit, .symbol_table caption { color: #299be1; font-size: 1.6em; text-align: left; padding-bottom: 8px; font-weight: normal; }
