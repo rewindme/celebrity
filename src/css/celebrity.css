@@ -110,7 +110,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .header .gnb .sub a { font-size: 1.1em; }
 .header .gnb .sub a:hover { color: #299be1; }
 
-.hero { position: relative; margin-bottom: 19px; /* height:418px; */ }
+.hero { position: relative; margin-bottom: 19px; height: 418px; }
 
 .container { width: 1000px; background-color: #fff; border-top: 7px solid #299be1; }
 
