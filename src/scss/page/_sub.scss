@@ -5,7 +5,9 @@ $blue:#299be1;
 
 %sub-page{
 	.header{margin-bottom:299px}
-	.slider-body{height:545px}
+	.slider-body .cover{width:920px}
+	/*
+.slider-body{height:545px}
 	.slider-body .cover{width:920px;height:545px}
 	.slider-body .caption{color:#000;font-size:1.3em;line-height:45px;height:45px;color:#757575;padding:0 10px 0 0;bottom:0;background-color:transparent}
 	.slider-nav{
@@ -13,7 +15,9 @@ $blue:#299be1;
 		button{@extend %sp-slide;width:26px;height:26px;background-position:4px -22px}
 		button.av{background-position:-23px -22px}
 	}	
+*/
 	.hero{height:545px}
+
 }
 
 %sub-tit{color:$blue;font-size:1.6em;text-align:left;padding-bottom:8px;font-weight:normal}
