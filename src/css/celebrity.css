@@ -23,13 +23,13 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .blind, .u_skip { visibility: hidden; overflow: hidden; position: absolute; left: -999em; width: 0; height: 0; font-size: 0; color: transparent; line-height: 0; }
 
-.slider-nav button, .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button, .footer .bi i, .footer .sns a i, .combobox .arrow, .header .bi i, .header .gnb, .header .gnb li, .symbol_ship .combox-box .arrow, .footer .bot_menu .bar, .footer .sns, .combobox, .wrap, .symbol_ship .combox-box, .symbol_thumbnail .grade .thumb_img, .symbol_thumbnail .grade .subs, .symbol_thumbnail .view_membership, .symbol_thumbnail .ask_membership, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
+.slider-nav button, .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_spa .slider-nav button, .page_enter .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button, .footer .bi i, .footer .sns a i, .combobox .arrow, .header .bi i, .header .gnb, .header .gnb li, .symbol_ship .combox-box .arrow, .footer .bot_menu .bar, .footer .sns, .combobox, .wrap, .symbol_ship .combox-box, .symbol_thumbnail .grade .thumb_img, .symbol_thumbnail .grade .subs, .symbol_thumbnail .view_membership, .symbol_thumbnail .ask_membership, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
 
-.slider-nav button, .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button, .footer .bi i, .footer .sns a i, .combobox .arrow, .header .bi i, .header .gnb, .header .gnb li, .symbol_ship .combox-box .arrow { background-image: url(../im/sp_gnb.png); background-repeat: no-repeat; vertical-align: top; }
+.slider-nav button, .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_spa .slider-nav button, .page_enter .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button, .footer .bi i, .footer .sns a i, .combobox .arrow, .header .bi i, .header .gnb, .header .gnb li, .symbol_ship .combox-box .arrow { background-image: url(../im/sp_gnb.png); background-repeat: no-repeat; vertical-align: top; }
 
-.slider-nav button, .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
+.slider-nav button, .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_spa .slider-nav button, .page_enter .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
 
-.footer .bi i, .footer .sns a i, .combobox i.arrow, .header .bi i, .header i.gnb, .symbol_ship .combox-box i.arrow, .slider-nav button i, .page_intro .slider-nav button i, .page_club .slider-nav button i, .page_room .slider-nav button i, .page_sail .slider-nav button i, .page_activity .slider-nav button i, .page_res .slider-nav button i, .page_ship .slider-nav button i, .section_head .tit i, .symbol_thumbnail .view_membership i, .symbol_thumbnail .ask_membership i, .info_list .thumbnail .btn_more i, .info_list .thumbnail .btn_more_bahamas i, .info_list .thumbnail .btn_more_bermuda i, .slider-nav button span { font: 0/0 a; color: transparent; }
+.footer .bi i, .footer .sns a i, .combobox i.arrow, .header .bi i, .header i.gnb, .symbol_ship .combox-box i.arrow, .slider-nav button i, .page_intro .slider-nav button i, .page_club .slider-nav button i, .page_room .slider-nav button i, .page_sail .slider-nav button i, .page_activity .slider-nav button i, .page_spa .slider-nav button i, .page_enter .slider-nav button i, .page_res .slider-nav button i, .page_ship .slider-nav button i, .section_head .tit i, .symbol_thumbnail .view_membership i, .symbol_thumbnail .ask_membership i, .info_list .thumbnail .btn_more i, .info_list .thumbnail .btn_more_bahamas i, .info_list .thumbnail .btn_more_bermuda i, .slider-nav button span { font: 0/0 a; color: transparent; }
 
 .footer .footer_cover, .symbol_thumbnail .grade, .info_list ul { zoom: 1; }
 .footer .footer_cover:after, .symbol_thumbnail .grade:after, .info_list ul:after { content: ''; clear: both; height: 0; display: block; visibility: hidden; }
@@ -42,6 +42,8 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .wrap.page_room { background-image: url(../im/body_bg/bg_room_body.jpg); }
 .wrap.page_sail { background-image: url(../im/body_bg/bg_sail_body.jpg); }
 .wrap.page_activity { background-image: url(../im/body_bg/bg_activity_body.jpg); }
+.wrap.page_spa { background-image: url(../im/body_bg/bg_spa_body.jpg); }
+.wrap.page_enter { background-image: url(../im/body_bg/bg_enter_body.jpg); }
 .wrap.page_res { background-image: url(../im/body_bg/bg_res_body.jpg); }
 .wrap.page_ship { background-image: url(../im/body_bg/bg_ship_body.jpg); }
 
@@ -112,13 +114,13 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .container { width: 1000px; background-color: #fff; border-top: 7px solid #299be1; }
 
-.page_intro .header, .page_club .header, .page_room .header, .page_sail .header, .page_activity .header, .page_res .header, .page_ship .header { margin-bottom: 299px; }
-.page_intro .slider-body, .page_club .slider-body, .page_room .slider-body, .page_sail .slider-body, .page_activity .slider-body, .page_res .slider-body, .page_ship .slider-body { height: 545px; }
-.page_intro .slider-body .cover, .page_club .slider-body .cover, .page_room .slider-body .cover, .page_sail .slider-body .cover, .page_activity .slider-body .cover, .page_res .slider-body .cover, .page_ship .slider-body .cover { width: 920px; height: 545px; }
-.page_intro .slider-body .caption, .page_club .slider-body .caption, .page_room .slider-body .caption, .page_sail .slider-body .caption, .page_activity .slider-body .caption, .page_res .slider-body .caption, .page_ship .slider-body .caption { color: #000; font-size: 1.3em; line-height: 45px; height: 45px; color: #757575; padding: 0 10px 0 0; bottom: 0; background-color: transparent; }
-.page_intro .slider-nav, .page_club .slider-nav, .page_room .slider-nav, .page_sail .slider-nav, .page_activity .slider-nav, .page_res .slider-nav, .page_ship .slider-nav { left: 0; margin: 0; background-color: #fff; padding: 0 20px 0 0; }
-.page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button { width: 26px; height: 26px; background-position: 4px -22px; }
-.page_intro .slider-nav button.av, .page_club .slider-nav button.av, .page_room .slider-nav button.av, .page_sail .slider-nav button.av, .page_activity .slider-nav button.av, .page_res .slider-nav button.av, .page_ship .slider-nav button.av { background-position: -23px -22px; }
+.page_intro .header, .page_club .header, .page_room .header, .page_sail .header, .page_activity .header, .page_spa .header, .page_enter .header, .page_res .header, .page_ship .header { margin-bottom: 299px; }
+.page_intro .slider-body, .page_club .slider-body, .page_room .slider-body, .page_sail .slider-body, .page_activity .slider-body, .page_spa .slider-body, .page_enter .slider-body, .page_res .slider-body, .page_ship .slider-body { height: 545px; }
+.page_intro .slider-body .cover, .page_club .slider-body .cover, .page_room .slider-body .cover, .page_sail .slider-body .cover, .page_activity .slider-body .cover, .page_spa .slider-body .cover, .page_enter .slider-body .cover, .page_res .slider-body .cover, .page_ship .slider-body .cover { width: 920px; height: 545px; }
+.page_intro .slider-body .caption, .page_club .slider-body .caption, .page_room .slider-body .caption, .page_sail .slider-body .caption, .page_activity .slider-body .caption, .page_spa .slider-body .caption, .page_enter .slider-body .caption, .page_res .slider-body .caption, .page_ship .slider-body .caption { color: #000; font-size: 1.3em; line-height: 45px; height: 45px; color: #757575; padding: 0 10px 0 0; bottom: 0; background-color: transparent; }
+.page_intro .slider-nav, .page_club .slider-nav, .page_room .slider-nav, .page_sail .slider-nav, .page_activity .slider-nav, .page_spa .slider-nav, .page_enter .slider-nav, .page_res .slider-nav, .page_ship .slider-nav { left: 0; margin: 0; background-color: #fff; padding: 0 20px 0 0; }
+.page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_spa .slider-nav button, .page_enter .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button { width: 26px; height: 26px; background-position: 4px -22px; }
+.page_intro .slider-nav button.av, .page_club .slider-nav button.av, .page_room .slider-nav button.av, .page_sail .slider-nav button.av, .page_activity .slider-nav button.av, .page_spa .slider-nav button.av, .page_enter .slider-nav button.av, .page_res .slider-nav button.av, .page_ship .slider-nav button.av { background-position: -23px -22px; }
 
 .article .sub_tit, .symbol_table caption { color: #299be1; font-size: 1.6em; text-align: left; padding-bottom: 8px; font-weight: normal; }
 
@@ -142,6 +144,10 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .page_activity .section_head .tit { background-image: url(../im/tit_head_activity.png); width: 299px; }
 
+.page_spa .section_head .tit { background-image: url(../im/tit_head_spa.png); width: 351px; }
+
+.page_enter .section_head .tit { background-image: url(../im/tit_head_enter.png); width: 416px; }
+
 .page_res .section_head .tit { background-image: url(../im/tit_head_res.png); width: 440px; }
 
 .page_ship .section_head .tit { background-image: url(../im/tit_head_ship.png); width: 490px; }
@@ -149,6 +155,9 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .article { width: 920px; color: #757575; margin-bottom: 98px; z-index: 20; }
 .article .desc { font-size: 1.6em; line-height: 1.45em; color: #666; }
 .article .info_list { left: -19px; padding-top: 50px; }
+.article .image_cover { display: block; padding-top: 20px; }
+.article .image_cover img { vertical-align: top; }
+.article .btns { text-align: center; padding-top: 20px; }
 
 .symbol_ship { background-repeat: no-repeat; width: 920px; height: 370px; margin-top: 50px; position: relative; zoom: 1; }
 .symbol_ship .tit { color: #fff; font-size: 1.6em; margin-bottom: 10px; padding: 32px 0 0 44px; }
@@ -200,7 +209,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .symbol_thumbnail .grade .zenith .thumb_img { background-position: -621px -206px; }
 .symbol_thumbnail .grade .zenith strong { color: #0a0a0a; }
 .symbol_thumbnail .grade .zenith .credit { background-color: #0a0a0a; }
-.symbol_thumbnail .btns { text-align: center; }
+.symbol_thumbnail .btns { padding-top: 0; }
 .symbol_thumbnail .view_membership, .symbol_thumbnail .ask_membership { width: 380px; height: 68px; background-position: 0 -407px; margin-right: 16px; }
 .symbol_thumbnail .ask_membership { width: 400px; background-position: -400px -407px; margin-right: 0; }
 

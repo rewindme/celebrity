@@ -53,7 +53,7 @@
 			.credit{background-color:#0a0a0a}
 		}
 	}
-	.btns{text-align:center}
+	.btns{padding-top:0}
 	.view_membership,.ask_membership{@extend %sp-grade;width:380px;height:68px;@extend %inline-block;@extend %blind;background-position:0 -407px;margin-right:16px}
 	.ask_membership{width:400px;background-position:-400px -407px;margin-right:0}
 }
