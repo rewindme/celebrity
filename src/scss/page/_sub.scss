@@ -13,6 +13,7 @@ $blue:#299be1;
 		button{@extend %sp-slide;width:26px;height:26px;background-position:4px -22px}
 		button.av{background-position:-23px -22px}
 	}	
+	.hero{height:545px}
 }
 
 %sub-tit{color:$blue;font-size:1.6em;text-align:left;padding-bottom:8px;font-weight:normal}

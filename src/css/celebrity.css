@@ -110,7 +110,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .header .gnb .sub a { font-size: 1.1em; }
 .header .gnb .sub a:hover { color: #299be1; }
 
-.hero { position: relative; margin-bottom: 19px; }
+.hero { position: relative; margin-bottom: 19px; /* height:418px; */ }
 
 .container { width: 1000px; background-color: #fff; border-top: 7px solid #299be1; }
 
@@ -121,6 +121,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .page_intro .slider-nav, .page_club .slider-nav, .page_room .slider-nav, .page_sail .slider-nav, .page_activity .slider-nav, .page_spa .slider-nav, .page_enter .slider-nav, .page_res .slider-nav, .page_ship .slider-nav { left: 0; margin: 0; background-color: #fff; padding: 0 20px 0 0; }
 .page_intro .slider-nav button, .page_club .slider-nav button, .page_room .slider-nav button, .page_sail .slider-nav button, .page_activity .slider-nav button, .page_spa .slider-nav button, .page_enter .slider-nav button, .page_res .slider-nav button, .page_ship .slider-nav button { width: 26px; height: 26px; background-position: 4px -22px; }
 .page_intro .slider-nav button.av, .page_club .slider-nav button.av, .page_room .slider-nav button.av, .page_sail .slider-nav button.av, .page_activity .slider-nav button.av, .page_spa .slider-nav button.av, .page_enter .slider-nav button.av, .page_res .slider-nav button.av, .page_ship .slider-nav button.av { background-position: -23px -22px; }
+.page_intro .hero, .page_club .hero, .page_room .hero, .page_sail .hero, .page_activity .hero, .page_spa .hero, .page_enter .hero, .page_res .hero, .page_ship .hero { height: 545px; }
 
 .article .sub_tit, .symbol_table caption { color: #299be1; font-size: 1.6em; text-align: left; padding-bottom: 8px; font-weight: normal; }
 
