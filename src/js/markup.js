@@ -36,7 +36,12 @@ $(document).ready(function(){
         $AutoPlay:true
     };
 
-    var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+    if ($('#slider1_container').html()) {
+    	var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+    	}else {
+	    	console.log('없음')
+    	}
 })
 
 // ajax include

@@ -38,3 +38,23 @@
 		
 }
 
+.wrap.intro{
+	position:absolute;top:0;bottom:0;left:0;right:0;background:none;
+	.intro_header_cover{
+		position:absolute;top:50px;width:100%;z-index:30;
+		.bi{width:1000px;margin:0 auto;display:block;text-align:center}
+	}
+	
+	.intro_footer_cover{
+		position:absolute;bottom:40px;z-index:30;width:100%;
+		.footer{margin-bottom:0}
+	}
+	
+	.intro_content_cover{
+		position:absolute;left:0;top:50%;width:100%;height:300px;margin:-150px 0 0 0;z-index:20;text-align:center;
+		.content_skip{width:1000px;margin:0 auto;display:block;text-align:center}
+	}
+	
+	.deco_main{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;overflow:hidden;min-width:1000px}
+	.deco_main img{width:100%;height:auto}
+}
