@@ -1,15 +1,15 @@
 @charset "utf-8";
 
-
+%bi{
+	text-align:center;padding:50px 0 30px;
+	i{@extend %sp-gnb;width:265px;height:55px;background-position:-20px 0}	
+}
 .wrap{@extend %inline-block;min-width:100%}
 
 /* header */
 .header{
 	@extend %layout;margin-bottom:33px;z-index:30;
-	.bi{
-		text-align:center;padding:50px 0 30px;
-		i{@extend %sp-gnb;width:265px;height:55px;background-position:-20px 0}
-	}
+	.bi{@extend %bi}
 	
 	.gnb{
 		@extend %sp-gnb;background-position:-300px 0;padding:5px 0 5px 73px;white-space:nowrap;font-size:0;
@@ -42,7 +42,7 @@
 	position:absolute;top:0;bottom:0;left:0;right:0;background:none;
 	.intro_header_cover{
 		position:absolute;top:50px;width:100%;z-index:30;
-		.bi{width:1000px;margin:0 auto;display:block;text-align:center}
+		.bi{@extend %bi;min-width:1000px}
 	}
 	
 	.intro_footer_cover{
@@ -51,10 +51,24 @@
 	}
 	
 	.intro_content_cover{
-		position:absolute;left:0;top:50%;width:100%;height:300px;margin:-150px 0 0 0;z-index:20;text-align:center;
-		.content_skip{width:1000px;margin:0 auto;display:block;text-align:center}
+		position:absolute;left:0;top:0;width:100%;height:100%;z-index:20;min-width:1000px;text-align:center;overflow:hidden;cursor:default!important;		
+		.skip_intro{position:absolute;top:0;bottom:0;left:0;right:0;z-index:30}
+		.skip_intro a{display:block;width:524px;height:292px;background:url(../im/intro/intro_eng.png) no-repeat;position:absolute;left:50%;top:50%;margin:-146px 0 0 -262px}
+		.skip_intro.lang_ko a{background-image:url(../im/intro/intro_kor.png)}
+		#slider_container_main{width:100%!important;height:100%!important;overflow:hidden}
+		#slider_container_main div{width:100%;height:100%}
+		#slider_container_main img{width:100%;height:auto}
+		
 	}
 	
-	.deco_main{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;overflow:hidden;min-width:1000px}
-	.deco_main img{width:100%;height:auto}
-}
+
+	.slider-body{
+		/*
+height:100%;
+		.cover{width:100%;height:100%}
+*/
+		.item{height:100%!important;position:relative}
+		/* img{width:100%;height:auto;} */
+	}
+
+}	
