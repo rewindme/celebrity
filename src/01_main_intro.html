@@ -83,7 +83,8 @@ jQuery(document).ready(function ($) {
             //you can remove responsive code if you don't want the slider scales while window resizes
             function ScaleSlider() {
                 var bodyWidth = document.body.clientWidth;
-                if (bodyWidth){
+                
+                if (bodyWidth > 1000){
                     jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 3000));                    
                     var sc_v = $('#slider_container_main').height() / 1080;
                     $(".skip_intro a").css("top",$(".wrap").height() / 2 / sc_v);
