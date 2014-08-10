@@ -36,7 +36,7 @@ $footer-color:#002f63;
 	.cb-button{border:1px solid #fff;background:transparent;color:#fff;height:30px;line-height:30px;padding:0 12px;box-sizing:content-box;cursor:pointer;white-space:nowrap;min-width:180px;text-align:left}
 	.arrow{width:11px;height:30px;@extend %sp-gnb;background-position:-306px -68px;position:absolute;right:12px;top:1px}
 	.cb-layer{position:absolute;width:100%;top:100%;margin-top:-1px}
-	.cb-layer ul{border:1px solid #fff;background-color:$footer-color}
+	.cb-layer ul{border:1px solid #fff;background-color:$footer-color;border-bottom:0}
 	.cb-layer a{color:#fff;display:block;padding:6px 12px 5px;}
 	.cb-layer a:hover{color:$footer-color;background-color:#fff}
 	
