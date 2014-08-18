@@ -54,7 +54,7 @@ $slideHeight:454px;
 }
 .page_sail{
 	@extend %sub-page;
-	.section_head .tit{background-image:url(../im/tit_head_sail.png);width:380px}
+	.section_head .tit{background-image:url(../im/tit_head_sail.png?1);width:290px}
 }
 .page_activity{
 	@extend %sub-page;
