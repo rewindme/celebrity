@@ -60,9 +60,9 @@
 
 // 섬네일 리스트 
 .info_list{
-	@extend %layout;width:954px;margin-bottom:19px;
+	@extend %layout;width:930px;margin-bottom:19px;
 	ul{@extend %clear}
-	li{padding:19px;float:left;}
+	li{padding:15px;float:left;}
 	.thumbnail{
 		width:280px;height:190px;position:relative;zoom:1;cursor:pointer;
 		img{vertical-align:top}

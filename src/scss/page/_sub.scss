@@ -80,10 +80,10 @@ $slideHeight:454px;
 
 .article{
 	@extend %layout;width:900px;color:#757575;margin-bottom:98px;z-index:20;
-	.desc{font-size:1.6em;line-height:1.45em;color:#666}
+	.desc{font-size:1em;line-height:1.45em;color:#666}
 	.sub_tit{@extend %sub-tit}
-	.info_list{left:-10px;padding-top:28px}
-	
+	.info_list{left:-15px;padding-top:28px}
+	.info_list.large_list{left:-10px}
 	.image_cover{display:block;padding-top:20px;img{vertical-align:top}}
 	.btns{text-align:center;padding-top:42px}
 	.btns img{vertical-align:top}
