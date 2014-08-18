@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 %bi{
-	text-align:center;padding:50px 0 30px;
-	i{@extend %sp-gnb;width:265px;height:55px;background-position:-20px 0}	
+	text-align:center;padding:45px 0 20px;
+	i{@extend %sp-gnb;width:242px;height:50px;background-position:-32px 0}	
 }
 .wrap{@extend %inline-block;min-width:100%}
 
@@ -12,12 +12,12 @@
 	.bi{@extend %bi}
 	
 	.gnb{
-		@extend %sp-gnb;background-position:-300px 0;padding:5px 0 5px 73px;white-space:nowrap;font-size:0;
-		li{background-color:#fff;@extend %inline-block;line-height:52px;height:52px;@extend %sp-gnb;background-position:209px 15px;position:relative;white-space:normal;font-size:14px}
-		li a{color:#666;display:block;text-align:center;font-size:1.2em;width:210px}
+		@extend %sp-gnb;background-position:-300px 0;padding:5px 0 5px 70px;white-space:nowrap;font-size:0;
+		li{background-color:#fff;@extend %inline-block;line-height:50px;height:52px;@extend %sp-gnb;background-position:209px 15px;position:relative;white-space:normal;font-size:14px}
+		li a{color:#666;display:block;text-align:center;font-size:1.0em;width:221px}
 		.membership{background-image:none}
 		.reservation{height:50px;border:1px solid #299be1;background:url(../im/pt_gnb_reserve.png) repeat-x 0 0 #3baff6;overflow:hidden}
-		.reservation a{color:#fff;}
+		.reservation a{color:#fff;width:225px}
 		
 		.sub{display:none}
 		li.selected{
@@ -27,14 +27,14 @@
 		.sub{
 			position:absolute;top:0;left:0;width:100%;background-color:#002859;padding-top:55px;padding-bottom:14px;z-index:10;line-height:normal;
 			li{background:none transparent;height:auto;line-height:35px;padding-bottom:3px}
-			a{font-size:1.1em;&:hover{color:#299be1}}
+			a{font-size:1em;&:hover{color:#299be1}}
 
 		}
 	}
 }
 
 .hero{
-	@extend %layout;position:relative;margin-bottom:19px;height:463px;
+	@extend %layout;position:relative;margin-bottom:10px;height:463px;width:900px;
 		
 }
 

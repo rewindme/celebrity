@@ -1,13 +1,15 @@
 @charset "utf-8";
 $blue:#299be1;
 
-.container{@extend %layout;width:1000px;background-color:#fff;border-top:7px solid $blue}
+.container{@extend %layout;width:960px;background-color:#fff;border-top:7px solid $blue}
+
+$slideHeight:454px;
 
 %sub-page{
-	.header{margin-bottom:299px}
-	.slider-body{height:545px}
-	.slider-body .cover{width:920px;height:545px}
-	.slider-body .caption{font-size:1.3em}
+	.header{margin-bottom:63px}
+	.slider-body{height:$slideHeight}
+	.slider-body .cover{width:900px;height:$slideHeight}
+	.slider-body .caption{font-size:0.9em}
 	/*
 .slider-body{height:545px}
 	.slider-body .cover{width:920px;height:545px}
@@ -18,7 +20,7 @@ $blue:#299be1;
 		button.av{background-position:-23px -22px}
 	}	
 */
-	.hero{height:545px}
+	.hero{height:$slideHeight}
 
 }
 
@@ -26,11 +28,11 @@ $blue:#299be1;
 %sp-grade{background-image:url(../im/img_membership_grade.jpg);background-repeat:no-repeat}
 
 .section_head{
-	padding:40px;
-	.tit{@extend %blind;height:91px;background-repeat:no-repeat}
+	padding:32px 30px;
+	.tit{@extend %blind;height:75px;background-repeat:no-repeat}
 // 텍스트형 타이틀	.tit{font-style:normal;font-size:2.7em;color:$blue;font-weight:normal;line-height:1.3em}
 	.section_list{
-		border-collapse:collapse;table-layout:fixed;position:absolute;right:41px;top:43px;
+		border-collapse:collapse;table-layout:fixed;position:absolute;right:30px;top:24px;
 		td{border:1px solid #e4e4e4;text-align:center;line-height:18px;padding:5px 5px;letter-spacing:-1px;min-width:118px}
 		td a{color:#999;font-size:0.85em;}
 		td.selected{border:1px solid $blue;background-color:$blue}
@@ -77,13 +79,14 @@ $blue:#299be1;
 }
 
 .article{
-	@extend %layout;width:920px;color:#757575;margin-bottom:98px;z-index:20;
+	@extend %layout;width:900px;color:#757575;margin-bottom:98px;z-index:20;
 	.desc{font-size:1.6em;line-height:1.45em;color:#666}
 	.sub_tit{@extend %sub-tit}
-	.info_list{left:-19px;padding-top:50px}
+	.info_list{left:-10px;padding-top:28px}
 	
 	.image_cover{display:block;padding-top:20px;img{vertical-align:top}}
-	.btns{text-align:center;padding-top:20px}
+	.btns{text-align:center;padding-top:42px}
+	.btns img{vertical-align:top}
 }
 
 .symbol_ship{

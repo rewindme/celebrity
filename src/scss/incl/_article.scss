@@ -83,15 +83,16 @@
 		.en{display:none}
 	}
 	&.large_list{
-		li{padding:19px 18px}
+		li{padding:10px}
 		.thumbnail{
 			width:440px;height:300px;
-			.subject{height:45px;line-height:45px;font-size:1.15em}
+			.subject{height:45px;line-height:45px;font-size:1em;font-weight:normal;text-indent:18px}
 			.deco{height:45px}
 			.btn_more{background-position:0 -111px;width:102px}
 		}	
 		.hover .thumbnail{
-			.desc{font-size:0.95em}
+			.subject{font-size:1.15em;text-indent:28px}
+			.desc{font-size:0.85em;padding-left:28px;top:52px}
 		}
 	}	
 
