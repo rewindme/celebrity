@@ -1,7 +1,7 @@
 @charset "utf-8";
 $footer-color:#002f63;
 .footer{
-	@extend %layout;width:1000px;margin-bottom:40px;
+	@extend %layout;width:960px;margin-bottom:40px;
 	.bot_menu{border-top:6px solid $footer-color;padding:23px 0;line-height:18px;font-size:0;text-align:center}
 	.bot_menu a{color:$footer-color;font-size:13px}
 	.bot_menu .bar{height:14px;@extend %inline-block;border-right:1px solid $footer-color;padding-left:15px;margin-right:14px;vertical-align:top;position:relative;top:2px}
@@ -13,8 +13,7 @@ $footer-color:#002f63;
 	.copyright{
 		overflow:hidden;padding:14px 0 0 0;color:#fff;
 		address{font-size:1em;color:#fff;display:block;margin-bottom:5px}
-/* 		a{color:#fff;font-size:0.9em} */
-/* 		.bar{padding:0 10px;font-size:0.9em} */
+		a{color:#d1d5dd}
 		p{font-size:0.85em;line-height:15px;color:#d1d5dd}
 	}
 	.connect_sns{position:absolute;right:0;top:0;padding:14px 29px 29px 0}

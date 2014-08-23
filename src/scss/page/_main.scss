@@ -4,6 +4,15 @@
 	text-align:center;padding:20px 0 15px;
 	i{@extend %sp-gnb;width:242px;height:50px;background-position:-32px 0}	
 }
+
+//GNB메뉴 가로폭
+$gnbItemWidth:221px;
+$gnbItemDivider:$gnbItemWidth - 1px; ///GNB메뉴 아이템 우측의 구분선 배경 위치
+
+//메인 슬라이더 배너 사이즈
+$mainSliderWidth:960px;
+$mainSliderHeight:452px;
+
 .wrap{@extend %inline-block;min-width:100%}
 
 /* header */
@@ -13,8 +22,8 @@
 	
 	.gnb{
 		@extend %sp-gnb;background-position:-300px 0;padding:5px 0 5px 70px;white-space:nowrap;font-size:0;
-		li{background-color:#fff;@extend %inline-block;line-height:50px;height:52px;@extend %sp-gnb;background-position:209px 15px;position:relative;white-space:normal;font-size:14px}
-		li a{color:#666;display:block;text-align:center;font-size:1.0em;width:221px}
+		li{background-color:#fff;@extend %inline-block;line-height:50px;height:52px;@extend %sp-gnb;background-position:$gnbItemDivider 15px;position:relative;white-space:normal;font-size:14px}
+		li a{color:#666;display:block;text-align:center;font-size:1.1em;width:$gnbItemWidth}
 		.membership{background-image:none}
 		.reservation{height:50px;border:1px solid #299be1;background:url(../im/pt_gnb_reserve.png) repeat-x 0 0 #3baff6;overflow:hidden}
 		.reservation a{color:#fff;width:225px}
@@ -34,8 +43,17 @@
 }
 
 .hero{
-	@extend %layout;position:relative;margin-bottom:10px;height:463px;width:900px;
+	@extend %layout;position:relative;margin-bottom:10px;width:$slideWidth;height:$slideCoverHeight;
+	
 		
+}
+.page_main .hero{
+	height:$mainSliderHeight;width:$mainSliderWidth;margin-bottom:30px;
+	.slider-body{height:$mainSliderHeight;}
+	.slider-body .cover{width:$mainSliderWidth;height:$mainSliderHeight}
+}
+.info_list.info_list_main{
+	width:901px;
 }
 
 .wrap.intro{
