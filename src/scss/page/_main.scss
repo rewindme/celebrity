@@ -1,14 +1,14 @@
 @charset "utf-8";
 
 %bi{
-	text-align:center;padding:45px 0 20px;
+	text-align:center;padding:20px 0 15px;
 	i{@extend %sp-gnb;width:242px;height:50px;background-position:-32px 0}	
 }
 .wrap{@extend %inline-block;min-width:100%}
 
 /* header */
 .header{
-	@extend %layout;margin-bottom:33px;z-index:30;
+	@extend %layout;margin-bottom:20px;z-index:30;
 	.bi{@extend %bi}
 	
 	.gnb{
