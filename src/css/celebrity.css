@@ -55,7 +55,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .slider-body { height: 374px; overflow: hidden; zoom: 1; background-color: #fff; }
 .slider-body .cover { position: absolute; left: 0; top: 0; overflow: hidden; width: 880px; height: 374px; }
 .slider-body .item { position: absolute; background-color: #fff; }
-.slider-body .caption { position: absolute; bottom: 0; right: 0; text-align: right; line-height: 30px; height: 32px; color: #757575; font-size: 1em; padding: 0 10px 0 0; }
+.slider-body .caption { position: absolute; bottom: 0; right: 0; text-align: right; line-height: 30px; height: 32px; color: #757575; font-size: 0.85em; padding: 0 10px 0 0; }
 .slider-body img { vertical-align: top; }
 
 .slider-nav { position: absolute; bottom: 5px; left: 0; margin: 0; font-size: 0; background-color: #fff; padding: 0 20px 0 5px; }
@@ -178,7 +178,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .page_ship .section_head .tit { background-image: url(../im/tit_02.png); width: 490px; }
 
 .article { width: 880px; color: #757575; margin-bottom: 98px; z-index: 20; }
-.article .desc { font-size: 0.85em; line-height: 1.45em; color: #666; }
+.article .desc { font-size: 1em; line-height: 1.45em; color: #666; }
 .article .info_list { left: -10px; padding-top: 20px; }
 .article .info_list.large_list { left: -10px; }
 .article .image_cover { display: block; padding-top: 20px; }
@@ -186,7 +186,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .article .btns { text-align: center; padding-top: 42px; }
 .article .btns img { vertical-align: top; }
 .article .canyon_spa { border: 1px solid #999; padding: 2px; }
-.article .canyon_spa .image_cover { border: 1px solid #999; background: url(../im/img_article_spa.jpg) no-repeat 0 18px; padding: 18px 30px 18px 305px; font-size: 0.85em; line-height: 1.6em; min-height: 65px; }
+.article .canyon_spa .image_cover { border: 1px solid #999; background: url(../im/img_article_spa.jpg) no-repeat 0 18px; padding: 18px 30px 18px 305px; font-size: 1em; line-height: 1.6em; min-height: 65px; }
 
 .symbol_ship { background-repeat: no-repeat; width: 880px; height: 370px; margin-top: 20px; position: relative; zoom: 1; }
 .symbol_ship .tit { color: #fff; font-size: 1.2em; margin-bottom: 10px; padding: 32px 0 0 44px; }

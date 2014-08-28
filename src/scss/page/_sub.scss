@@ -77,7 +77,7 @@ $blue:#299be1;
 
 .article{
 	@extend %layout;width:880px;color:#757575;margin-bottom:98px;z-index:20;
-	.desc{font-size:0.85em;line-height:1.45em;color:#666}
+	.desc{font-size:1em;line-height:1.45em;color:#666}
 	.sub_tit{@extend %sub-tit}
 	.info_list{left:-10px;padding-top:20px}
 	.info_list.large_list{left:-10px}
@@ -85,7 +85,7 @@ $blue:#299be1;
 	.btns{text-align:center;padding-top:42px}
 	.btns img{vertical-align:top}
 	.canyon_spa{border:1px solid #999;padding:2px}
-	.canyon_spa .image_cover{border:1px solid #999;background:url(../im/img_article_spa.jpg) no-repeat 0 18px;padding:18px 30px 18px 305px;font-size:0.85em;line-height:1.6em;min-height:65px}
+	.canyon_spa .image_cover{border:1px solid #999;background:url(../im/img_article_spa.jpg) no-repeat 0 18px;padding:18px 30px 18px 305px;font-size:1em;line-height:1.6em;min-height:65px}
 
 }
 
