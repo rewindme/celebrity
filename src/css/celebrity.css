@@ -29,7 +29,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .slider-nav button { background-image: url(../im/sp_slide.png); border: 0; background-color: transparent; }
 
-.footer .bi i, .footer .sns a i, .combobox i.arrow, .header .bi i, .wrap.intro .intro_header_cover .bi i, .header i.gnb, .symbol_ship .combox-box i.arrow, .slider-nav button i, .section_head .tit i, .symbol_thumbnail .view_membership i, .symbol_thumbnail .ask_membership i, .info_list .thumbnail .btn_more i, .info_list .thumbnail .btn_more_bahamas i, .info_list .thumbnail .btn_more_bermuda i, .slider-nav button span { font: 0/0 a; color: transparent; }
+.footer .bi i, .footer .sns a i, .combobox i.arrow, .header .bi i, .wrap.intro .intro_header_cover .bi i, .header i.gnb, .symbol_ship .combox-box i.arrow, .slider-nav button i, .section_head .tit i, .symbol_thumbnail .view_membership i, .symbol_thumbnail .ask_membership i, .info_list .thumbnail .btn_more i, .info_list .thumbnail .btn_more_bahamas i, .info_list .thumbnail .btn_more_bermuda i, .info_list .thumbnail .btn_srch_schd i, .slider-nav button span { font: 0/0 a; color: transparent; }
 
 .footer .footer_cover, .symbol_thumbnail .grade, .info_list ul { zoom: 1; }
 .footer .footer_cover:after, .symbol_thumbnail .grade:after, .info_list ul:after { content: ''; clear: both; height: 0; display: block; visibility: hidden; }
@@ -55,7 +55,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .slider-body { height: 374px; overflow: hidden; zoom: 1; background-color: #fff; }
 .slider-body .cover { position: absolute; left: 0; top: 0; overflow: hidden; width: 880px; height: 374px; }
 .slider-body .item { position: absolute; background-color: #fff; }
-.slider-body .caption { position: absolute; bottom: 0; right: 0; text-align: right; line-height: 30px; height: 32px; color: #757575; font-size: .85em; padding: 0 10px 0 0; }
+.slider-body .caption { position: absolute; bottom: 0; right: 0; text-align: right; line-height: 30px; height: 32px; color: #757575; font-size: 1em; padding: 0 10px 0 0; }
 .slider-body img { vertical-align: top; }
 
 .slider-nav { position: absolute; bottom: 5px; left: 0; margin: 0; font-size: 0; background-color: #fff; padding: 0 20px 0 5px; }
@@ -249,14 +249,17 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .info_list .thumbnail { width: 280px; height: 190px; position: relative; zoom: 1; cursor: pointer; }
 .info_list .thumbnail img { vertical-align: top; }
 .info_list .thumbnail .subject { position: absolute; left: 0; bottom: 0; width: 100%; height: 34px; color: #fff; z-index: 20; line-height: 35px; text-indent: 12px; font-size: 0.8em; font-weight: normal; }
+.info_list .thumbnail .period { display: none; }
 .info_list .thumbnail .deco { position: absolute; left: 0; bottom: 0; width: 100%; height: 34px; background-color: #002859; opacity: 0.9; filter: alpha(opacity=90); z-index: 10; }
-.info_list .thumbnail .desc { position: absolute; top: 50px; left: 0; padding: 0 17px; font-size: 0.8em; line-height: 1.7em; z-index: 20; text-align: justify; }
-.info_list .thumbnail .btn_more, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { background: url(../im/img_more.png?1) no-repeat; width: 89px; height: 27px; z-index: 20; display: block; margin-top: 15px; }
+.info_list .thumbnail .desc { position: absolute; top: 50px; left: 0; padding: 0 14px 0 16px; font-size: 0.8em; line-height: 1.7em; z-index: 20; text-align: justify; }
+.info_list .thumbnail .btn_more, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda, .info_list .thumbnail .btn_srch_schd { background: url(../im/img_more.png) no-repeat; width: 89px; height: 27px; z-index: 20; display: block; margin-top: 15px; }
+.info_list .thumbnail .btn_srch_schd { background-position: 0 -148px; width: 97px; }
 .info_list .thumbnail .desc, .info_list .thumbnail .btn_more, .info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { display: none; color: #fff; }
-.info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { width: 119px; background-position: 0 -37px; }
-.info_list .thumbnail .btn_more_bermuda { background-position: 0 -74px; }
+.info_list .thumbnail .btn_more_bahamas, .info_list .thumbnail .btn_more_bermuda { width: 108px; background-position: 0 -37px; margin-right: 7px; }
+.info_list .thumbnail .btn_more_bermuda { background-position: 0 -74px; margin-right: 0; }
 .info_list .hover .thumbnail .deco { top: 0; height: 100% !important; }
 .info_list .hover .thumbnail .subject { top: 0; bottom: auto; font-size: 1em; font-weight: normal; padding-top: 10px; text-indent: 17px; }
+.info_list .hover .thumbnail .period { display: inline; font-size: 0.8em; }
 .info_list .hover .thumbnail .desc, .info_list .hover .thumbnail .btn_more, .info_list .hover .thumbnail .btn_more_bahamas, .info_list .hover .thumbnail .btn_more_bermuda { display: block; }
 .info_list .hover .thumbnail .btn_more_bahamas, .info_list .hover .thumbnail .btn_more_bermuda { display: inline-block; }
 .info_list .hover .thumbnail .en { display: none; }

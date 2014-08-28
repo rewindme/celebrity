@@ -14,7 +14,7 @@ $slideWidth:880px;
 	height:$slideCoverHeight;overflow:hidden;zoom:1;background-color:#fff;
 	.cover{position:absolute;left:0;top:0;overflow:hidden;width:$slideWidth;height:$slideCoverHeight}
 	.item{position:absolute;background-color:#fff}
-	.caption{position:absolute;bottom:0;right:0;text-align:right;line-height:30px;height:32px;color:#757575;font-size:.85em;padding:0 10px 0 0;}
+	.caption{position:absolute;bottom:0;right:0;text-align:right;line-height:30px;height:32px;color:#757575;font-size:1em;padding:0 10px 0 0;}
 	img{vertical-align:top}
 }
 .slider-nav{
