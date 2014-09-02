@@ -77,7 +77,7 @@ $thumbnailSubjectHeight:34px;
 		.btn_more,.btn_srch_schd{background:url(../im/img_more.png) no-repeat;width:89px;height:27px;z-index:20;@extend %blind;display:block;margin-top:15px}
 		.btn_srch_schd{background-position:0 -148px;width:97px}
 		.desc,.btn_more{display:none;color:#fff}
-		.btn_more_bahamas,.btn_more_bermuda{@extend .btn_more;width:108px;background-position:0 -37px;@extend %inline-block;margin-right:7px}
+		.btn_more_bahamas,.btn_more_bermuda{@extend .btn_more;width:108px;background-position:0 -37px;@extend %inline-block;margin-right:7px;margin-top:7px}
 		.btn_more_bermuda{background-position:0 -74px;margin-right:0}
 		
 	}
