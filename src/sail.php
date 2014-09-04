@@ -51,7 +51,7 @@
 				<tr>
 					<td><a href="entertainment.php">엔터테인먼트</a></td>
 					<td><a href="room.php">선실</a></td>
-					<td><a href="entertainment.php">캡틴스클럽 멤버쉽</td>
+					<td><a href="membership.php">캡틴스클럽 멤버쉽</td>
 				</tr>
 			</table>
 			

@@ -1,5 +1,5 @@
 <div class="header">
-	<h1 class="bi"><a href="01_main.html"><i>Celebrity X Cruises</i></a></h1>
+	<h1 class="bi"><a href="main.php"><i>Celebrity X Cruises</i></a></h1>
 	<ul class="gnb">
 		<!-- [D] 메뉴 활성화시 selected 클래스 추가 -->
 		<li class="celebrity_cruise">
@@ -23,7 +23,7 @@
 		<li class="membership">
 			<a href="entertainment.php" class="gnb_menu">캡틴스클럽 멤버쉽</a>
 			<ul class="sub">
-				<li><a href="entertainment.php">캡틴스클럽 멤버쉽 소개</a></li>
+				<li><a href="membership.php">캡틴스클럽 멤버쉽 소개</a></li>
 				<li><a href="http://rccl.kr/help/applyMember2.php?top_menu_id=6&menu_id=42" target="_blank">캡틴스클럽 멤버쉽 신청</a></li>
 			</ul>
 		</li>
