@@ -27,7 +27,7 @@
 <body>
 <div class="wrap intro">
 	<div class="intro_header_cover">
-		<h1 class="bi"><a href="01_main.html"><i>Celebrity X Cruises</i></a></h1>
+		<h1 class="bi"><a href="main.php"><i>Celebrity X Cruises</i></a></h1>
 	</div>
 	<div class="intro_content_cover">		
 		<div id="slider_container_main">
@@ -43,26 +43,20 @@
 	        <div u="slides" class="cover">
 	            <div class="item">
 	            	<img src="im/intro/intro_bg01.jpg" alt="intro_bg01" width="1600" height="1080">
-	            	<span class="skip_intro"><a href="01_main.html"><i class="blind">skip</i></a></span>
+	            	<span class="skip_intro"><a href="main.php"><i class="blind">skip</i></a></span>
 	            </div>	            
-	            <div class="item"><img src="im/intro/intro_bg03.jpg" alt="intro_bg03" width="1600" height="1080"><span class="skip_intro lang_ko"><a href="01_main.html"><i class="blind">skip</i></a></span></div>
-	            <div class="item"><img src="im/intro/intro_bg02.jpg" alt="intro_bg02" width="1600" height="1080"><span class="skip_intro"><a href="01_main.html"><i class="blind">skip</i></a></span></div>
-	            <div class="item"><img src="im/intro/intro_bg04.jpg" alt="intro_bg04" width="1600" height="1080"><span class="skip_intro lang_ko"><a href="01_main.html"><i class="blind">skip</i></a></span></div>
+	            <div class="item"><img src="im/intro/intro_bg03.jpg" alt="intro_bg03" width="1600" height="1080"><span class="skip_intro lang_ko"><a href="main.php"><i class="blind">skip</i></a></span></div>
+	            <div class="item"><img src="im/intro/intro_bg02.jpg" alt="intro_bg02" width="1600" height="1080"><span class="skip_intro"><a href="main.php"><i class="blind">skip</i></a></span></div>
+	            <div class="item"><img src="im/intro/intro_bg04.jpg" alt="intro_bg04" width="1600" height="1080"><span class="skip_intro lang_ko"><a href="main.php"><i class="blind">skip</i></a></span></div>
 	        </div>
 	    </div>
 	</div>
 	<div class="intro_footer_cover">
-		<div class="footer">
-			<!-- 풋터 -->
-		</div>
+		<?php include 'include/footer.php'; ?>
 	</div>	
 </div>
 <script>
 jQuery(document).ready(function ($) {
-	load_section([
-		{section:'.footer',fileName:'00_footer.html'}
-	])	
-	
 	var _SlideshowTransitions_opacity = 2;
 	var _SlideshowTransitions_duration = 1200;
 	if (navigator.userAgent.match(/(MSIE 8|MSIE 7)/)){

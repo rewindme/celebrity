@@ -26,9 +26,7 @@
 </head>
 <body>
 <div class="wrap page_main">
-	<div class="header">
-		<!-- 헤더 -->
-	</div>
+	<?php include 'include/header.php'; ?>
 	<div class="hero" id="slider1_container">
         <div u="loading" class="slider-loading">
             <div class="dimmed"></div>
@@ -65,7 +63,7 @@
 					<h3 class="subject">셀러브리티 크루즈 소개</h3>
 					<p class="desc">
 						한국인이 가장 사랑하는 셀러브리티 크루즈는<br>세련된 모던 럭셔리를 경험할 수 있는<br>고품격 프리미엄 크루즈 선사입니다.
-						<a href="02_sub_intro.html" class="btn_more"><i>자세히 보기</i></a>
+						<a href="introduce.php" class="btn_more"><i>자세히 보기</i></a>
 					</p>
 					
 					<span class="deco"></span>
@@ -75,7 +73,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_02.jpg" alt="" width="280" height="190">
 					<h3 class="subject">보유 크루즈쉽</h3>
-					<p class="desc">세계 최고의 건축가와 디자이너, 예술가들이 빚어 낸 바다 위의 가장 아름답고 경이로운 건축물로 여러분을 초대합니다.<a href="02_sub_ship.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">세계 최고의 건축가와 디자이너, 예술가들이 빚어 낸 바다 위의 가장 아름답고 경이로운 건축물로 여러분을 초대합니다.<a href="ship.php" class="btn_more"><i>자세히 보기</i></a></p>
 
 					<span class="deco"></span>
 				</div>
@@ -84,7 +82,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_03.jpg" alt="" width="280" height="190">
 					<h3 class="subject">운항지역</h3>
-					<p class="desc">11척의 셀러브리티 크루즈쉽은<br>전세계 6대륙 240여 기항지를 운항하며<br>여러분을 최고의 여행지로 안내합니다.<a href="02_sub_sail.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">11척의 셀러브리티 크루즈쉽은<br>전세계 6대륙 240여 기항지를 운항하며<br>여러분을 최고의 여행지로 안내합니다.<a href="sail.php" class="btn_more"><i>자세히 보기</i></a></p>
 
 					<span class="deco"></span>
 				</div>
@@ -93,7 +91,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_04.jpg" alt="" width="280" height="190">
 					<h3 class="subject">셀러브리티 라이프 액티비티</h3>
-					<p class="desc">셀러브리티 라이프 액티비티와 함께라면<br>달콤한 휴식은 물론 새로운 배움과 경험으로<br>여행을 더욱 풍성하게 채워갈 수 있습니다.<a href="02_sub_activity.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">셀러브리티 라이프 액티비티와 함께라면<br>달콤한 휴식은 물론 새로운 배움과 경험으로<br>여행을 더욱 풍성하게 채워갈 수 있습니다.<a href="activity.php" class="btn_more"><i>자세히 보기</i></a></p>
 
 					<span class="deco"></span>
 				</div>
@@ -102,7 +100,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_05.jpg" alt="" width="280" height="190">
 					<h3 class="subject">레스토랑 &amp; 카페</h3>
-					<p class="desc">다양한 수상경력을 보유한 바다 위 최고의 레스토랑! 세계적인 주방장이 엄선한 메뉴로 준비된 월드 클래스 다이닝으로 맛의 향연을 즐겨 보십시오.<a href="02_sub_res_cafe.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">다양한 수상경력을 보유한 바다 위 최고의 레스토랑! 세계적인 주방장이 엄선한 메뉴로 준비된 월드 클래스 다이닝으로 맛의 향연을 즐겨 보십시오.<a href="cafe.php" class="btn_more"><i>자세히 보기</i></a></p>
 				
 					<span class="deco"></span>
 				</div>
@@ -111,7 +109,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_06.jpg" alt="" width="280" height="190">
 					<h3 class="subject">스파 &amp; 피트니스</h3>
-					<p class="desc">세계적인 명성의 캐년 랜치 스파 클럽(Canyon Ranch SpaClub®) 프로그램 및 최신시설과 전문강사를 갖춘 피트니스 센터는 지친 몸과 마음의 감각을 되살려줍니다.<a href="02_sub_spa.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">세계적인 명성의 캐년 랜치 스파 클럽(Canyon Ranch SpaClub®) 프로그램 및 최신시설과 전문강사를 갖춘 피트니스 센터는 지친 몸과 마음의 감각을 되살려줍니다.<a href="spa.php" class="btn_more"><i>자세히 보기</i></a></p>
 
 					<span class="deco"></span>
 				</div>
@@ -120,7 +118,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_07.jpg" alt="" width="280" height="190">
 					<h3 class="subject">엔터테인먼트</h3>
-					<p class="desc">화려한 웨스트 엔드 스타일의 공연에서부터 잔잔한 선율이 흐르는 클래식한 음악, 행운을 시험할 수 있는 카지노까지! 다양한 즐거움이 여러분을 기다립니다.<a href="02_sub_enter.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">화려한 웨스트 엔드 스타일의 공연에서부터 잔잔한 선율이 흐르는 클래식한 음악, 행운을 시험할 수 있는 카지노까지! 다양한 즐거움이 여러분을 기다립니다.<a href="entertainment.php" class="btn_more"><i>자세히 보기</i></a></p>
 
 					<span class="deco"></span>
 				</div>
@@ -129,7 +127,7 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_08.jpg" alt="" width="280" height="190">
 					<h3 class="subject">선실</h3>
-					<p class="desc">여행스타일과 취향에 맞춰 다양한 선택이 가능한<br>편안하고 고급스러운 선실은 크루즈 여행 중<br>나만의 특별한 휴식공간과 시간을 선사합니다. <a href="02_sub_room.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">여행스타일과 취향에 맞춰 다양한 선택이 가능한<br>편안하고 고급스러운 선실은 크루즈 여행 중<br>나만의 특별한 휴식공간과 시간을 선사합니다. <a href="room.php" class="btn_more"><i>자세히 보기</i></a></p>
 
 					<span class="deco"></span>
 				</div>
@@ -138,28 +136,14 @@
 				<div class="thumbnail">
 					<img src="im/cate/img_thumb_09.jpg" alt="" width="280" height="190">
 					<h3 class="subject">캡틴스클럽 멤버쉽</h3>
-					<p class="desc">셀러브리티 크루즈 멤버쉽 프로그램으로 다양한 특전과 혜택을 누리세요. 캡틴스클럽 멤버쉽 가입은 셀러브리티 크루즈 여행의 시작입니다.<a href="02_sub_club.html" class="btn_more"><i>자세히 보기</i></a></p>
+					<p class="desc">셀러브리티 크루즈 멤버쉽 프로그램으로 다양한 특전과 혜택을 누리세요. 캡틴스클럽 멤버쉽 가입은 셀러브리티 크루즈 여행의 시작입니다.<a href="entertainment.php" class="btn_more"><i>자세히 보기</i></a></p>
 		
 					<span class="deco"></span>
 				</div>
 			</li>
 		</ul>
 	</div>
-	<div class="footer">
-		<!-- 풋터 -->
-	</div>
+	<?php include 'include/footer.php'; ?>
 </div>
-<script>
-//slider setting
-jQuery(document).ready(function ($) {
-    
-    load_section([
-		{section:'.header',fileName:'00_header.html'},
-		{section:'.footer',fileName:'00_footer.html'}
-	])	
-
-});
-
-</script>
 </body>
 </html>

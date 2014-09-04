@@ -26,9 +26,7 @@
 </head>
 <body>
 <div class="wrap page_intro">
-	<div class="header">
-		<!-- 헤더 -->
-	</div>
+	<?php include 'include/header.php'; ?>
 	<div class="container">
 		<div class="section_head">
 			<h2 class="tit"><i>프리미엄 크루즈의 특별함<br>셀러브리티 크루즈</i></h2>
@@ -40,19 +38,19 @@
 					<col>
 				</colgroup>
 				<tr>
-					<td class="selected"><a href="02_sub_intro.html">셀러브리티 크루즈</a></td>
-					<td><a href="02_sub_ship.html">보유 크루즈쉽</a></td>
-					<td><a href="02_sub_sail.html">운항지역</a></td>
+					<td class="selected"><a href="introduce.php">셀러브리티 크루즈</a></td>
+					<td><a href="ship.php">보유 크루즈쉽</a></td>
+					<td><a href="sail.php">운항지역</a></td>
 				</tr>
 				<tr>
-					<td><a href="02_sub_activity.html">셀러브리티 라이프 액티비티</a></td>
-					<td><a href="02_sub_res_cafe.html">레스토랑&amp;카페</a></td>
-					<td><a href="02_sub_spa.html">스파&amp;피트니스</a></td>
+					<td><a href="activity.php">셀러브리티 라이프 액티비티</a></td>
+					<td><a href="cafe.php">레스토랑&amp;카페</a></td>
+					<td><a href="spa.php">스파&amp;피트니스</a></td>
 				</tr>
 				<tr>
-					<td><a href="02_sub_enter.html">엔터테인먼트</a></td>
-					<td><a href="02_sub_room.html">선실</a></td>
-					<td><a href="02_sub_club.html">캡틴스클럽 멤버쉽</td>
+					<td><a href="entertainment.php">엔터테인먼트</a></td>
+					<td><a href="room.php">선실</a></td>
+					<td><a href="entertainment.php">캡틴스클럽 멤버쉽</td>
 				</tr>
 			</table>
 			
@@ -144,22 +142,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
-			<!-- 풋터 -->
-		</div>
+		<?php include 'include/footer.php'; ?>
 	</div>
 </div>
-<script>
-//slider setting
-jQuery(document).ready(function ($) {
-    // header,footer include
-    load_section([
-		{section:'.header',fileName:'00_header.html'},
-		{section:'.footer',fileName:'00_footer.html'}
-	])	
-
-});
-
-</script>
 </body>
 </html>
