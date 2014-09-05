@@ -38,10 +38,7 @@ $(document).ready(function(){
 
     if ($('#slider1_container').html()) {
     	var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-
-    	}else {
-	    	console.log('없음')
-    	}
+    }
 })
 
 // ajax include
@@ -51,11 +48,11 @@ function load_section(param){
 		var sID = value.section, fName = value.fileName;
 		$.get("./"+fName,function(data){
 			$(sID).html($(data).find(sID).html())
-			console.log($(data).find(sID))
+/* 			console.log($(data).find(sID)) */
 		}).success(function(){
-			console.log(sID)
+/* 			console.log(sID) */
 		}).fail(function(){
-			console.log('못불러왔쪄욤 뿌잉뿌잉')
+/* 			console.log('못불러왔쪄욤 뿌잉뿌잉') */
 		});
 	});	
 }
