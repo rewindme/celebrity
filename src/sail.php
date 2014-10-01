@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>셀러브리티 크루즈 전세계 주요 운항지역</title>
 <meta http-equiv="keyword" content="크루즈 운항지역, 셀러브리티 크루즈 운항지역, 지중해, 북유럽, 알래스카, 카리브해, 아시아, 남미, 호주&뉴질랜드, 남태평양&피지, 하와이, 바하마, 버뮤다, 파나마, 캐나다&뉴잉글랜드, 캘리포니아, 갈라파고스, 셀러브리티 크루즈, 크루즈 여행, 크루즈 관광, 크루즈경비, 크루즈 여행 비용, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="셀러브리티 크루즈는 1년 365일, 최상의 기후를 보이는 일정으로 승객여러분을 안내하기 위해 세계 각지를 계절별로 이동하며 다양한 지역을 운행합니다. 리조트나 호텔에 머물며 한 나라만을 관광하는 일반 여행과는 달리 크루즈는 단 한번의 일정으로 다양한 나라를 관광할 수 있습니다.

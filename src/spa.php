@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>셀러브리티 크루즈 스파 & 피트니스 시설</title>
 <meta http-equiv="keyword" content="셀러브리티 크루즈 스파, 크루즈 피트니스 시설, 캐년랜치스파클럽, 셀러브리티크루즈,크루즈여행, 크루즈여행비용,크루즈관광, 지중해크루즈, 알래스카크루즈, 유럽크루즈, 북미크루즈, 카리브해크루즈, 아시아크루즈, 남미크루즈, 크루즈여행가격, 동남아크루즈여행, 북유럽크루즈여행, 크루즈성지순례, 갈라파고스 크루즈, 바하마크루즈, 홍콩크루즈, 이클립스호, 실루엣호, 살스티스호, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="세계적인 스파 브랜드 '캐년 랜치 스파클럽(Cannyon Ranch SapClub)을 바다 위에서 즐길 수 있습니다. 스파, 피부관리, 살롱 서비스를 비롯해 하이테크 피트니스 시설이 준비되어 있습니다. 피트니스 시설에서는 에어로빅부터 요가 등 다양한 프로그램을 운영하고 있으며 전문가의 컨설팅도 받을 수 있습니다. ">

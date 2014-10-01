@@ -57,7 +57,7 @@ $mainSliderHeight:452px;
 }
 
 .wrap.intro{
-	position:absolute;top:0;bottom:0;left:0;right:0;background:none;
+	position:absolute;top:0;bottom:0;left:0;right:0;background:none;min-height:600px;
 	.intro_header_cover{
 		position:absolute;top:50px;width:100%;z-index:30;
 		.bi{@extend %bi;min-width:1000px}

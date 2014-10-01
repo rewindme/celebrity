@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>▒ 프리미엄 크루즈의 특별함, 모던 럭셔리의 진수 셀러브리티 크루즈 ▒</title>
 <meta http-equiv="keyword" content="셀러브리티크루즈,크루즈여행, 크루즈여행비용,크루즈관광,지중해크루즈, 알래스카크루즈, 유럽크루즈, 북미크루즈, 카리브해크루즈, 아시아크루즈, 남미크루즈, 크루즈여행가격, 동남아크루즈여행, 북유럽크루즈여행, 크루즈성지순례, 바하마크루즈, 홍콩크루즈, 이클립스호, 실루엣호, 살스티스호, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="셀러브리티 크루즈는 럭셔리 크루즈와 대중적 크루즈의 장점을 결합한 대표적인 프리엄 크루즈 선사입니다. 역동적인 엔터테인먼트로 가득한 휴가 혹은 꿈 같이 편안한 휴가를 위한 휴가, 모든 것이 가능한 셀러브리티 크루즈는 전 세계로 365일 운항하는 글로벌 리딩 크루즈 선사 입니다.">

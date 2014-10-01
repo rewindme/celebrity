@@ -23,13 +23,21 @@
   ga('send', 'pageview');
 
 </script>
+<style>
+@media screen and (max-width:640px){
+.footer .connect_sns{display:none}
+.footer .copyright{padding-bottom:14px}
+.wrap.intro .intro_footer_cover .footer{width:auto;min-width:640px}
+.wrap.intro .intro_content_cover #slider_container_main{left:-150px}
+}
+</style>
 </head>
 <body>
 <div class="wrap intro">
 	<div class="intro_header_cover">
-		<h1 class="bi"><a href="main.php"><i>Celebrity X Cruises</i></a></h1>
+		<h1 class="bi" style="min-width:640px"><a href="main.php"><i>Celebrity X Cruises</i></a></h1>
 	</div>
-	<div class="intro_content_cover">		
+	<div class="intro_content_cover" style="min-width:640px">		
 		<div id="slider_container_main">
 			<!-- Loading Screen -->
 	        <div u="loading" style="position: absolute; top: 0px; left: 0px;z-index:10">
@@ -100,19 +108,18 @@ jQuery(document).ready(function ($) {
     function ScaleSlider() {
         var bodyWidth = document.body.clientWidth;
         
-        if (bodyWidth > 1000){
+        if (bodyWidth > 940){
             jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 3000));                    
             var sc_v = $('#slider_container_main').height() / 1080;
             $(".skip_intro a").css("top",$(".wrap").height() / 2 / sc_v);
             
 		}	
         else{
-            bodyWidth = 1000;
+            bodyWidth = 940;
             jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 3000));                    
             var sc_v = $('#slider_container_main').height() / 1080;
             $(".skip_intro a").css("top",$(".wrap").height() / 2 / sc_v);
-            
-            window.setTimeout(ScaleSlider, 100);
+/*             window.setTimeout(ScaleSlider, 200); */
             
 		}
 		/* alert(bodyWidth); */
