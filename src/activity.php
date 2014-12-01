@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>셀러브리티 크루즈 라이프 액티비티스 선상 프로그램 소개</title>
 <meta http-equiv="keyword" content="셀러브리티 크루즈 선상프로그램, 셀러브리티 라이프 액티비티스, 선내 프로그램, 셀러브리티크루즈,크루즈여행, 크루즈여행비용,크루즈관광,지중해크루즈, 알래스카크루즈, 유럽크루즈, 북미크루즈, 카리브해크루즈, 아시아크루즈, 남미크루즈, 크루즈여행가격, 동남아크루즈여행, 북유럽크루즈여행, 크루즈성지순례, 갈라파고스 크루즈, 바하마크루즈, 홍콩크루즈, 이클립스호, 실루엣호, 살스티스호, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="독특함을 넘어선 특별함, 셀러브리티 라이프 액티비티스 동이 트는 새벽부터 늦은 저녁까지 셀러브리티 크루즈 내에서 벌어지는 다양한 선내 프로그램을 체험해 보세요. 100여가지가 넘는 선내 라이프 액티비는 크게 4가지 맛(Taste), 재충전(Revive), 배움(Learn), 놀이(Play) 로 나뉩니다. 바쁜 일상 속에서 이룰 수 없었던 당신이 좋아하는 그 무언가를 할 수 있는 모든 준비가 된 셀러브리티 크루즈의 라이프 액티비티를 경험하세요.">

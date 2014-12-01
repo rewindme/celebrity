@@ -81,6 +81,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 .footer .flickr i { background-position: -243px -70px; }
 .footer .youtube i { background-position: -268px -70px; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 2) { .footer .copyright p { font-size: 0.5em; color: #fff; line-height: 1.3em; } }
 .combobox { position: absolute; right: 29px; top: 44px; zoom: 1; }
 .combobox .cb-button { border: 1px solid #fff; background: transparent; color: #fff; height: 30px; line-height: 30px; padding: 0 12px; box-sizing: content-box; cursor: pointer; white-space: nowrap; min-width: 180px; text-align: left; }
 .combobox .arrow { width: 11px; height: 30px; background-position: -306px -68px; position: absolute; right: 12px; top: 1px; }
@@ -118,7 +119,7 @@ legend, .blind { position: absolute; top: 0; left: 0; width: 0; height: 0; overf
 
 .info_list.info_list_main { width: 901px; }
 
-.wrap.intro { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: none; }
+.wrap.intro { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: none; min-height: 600px; }
 .wrap.intro .intro_header_cover { position: absolute; top: 50px; width: 100%; z-index: 30; }
 .wrap.intro .intro_header_cover .bi { min-width: 1000px; }
 .wrap.intro .intro_footer_cover { position: absolute; bottom: 40px; z-index: 30; width: 100%; }
