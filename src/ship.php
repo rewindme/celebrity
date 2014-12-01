@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>셀러브리티 크루즈 보유 크루즈 쉽 소개</title>
 <meta http-equiv="keyword" content="살스티스 클래스, 밀레니엄 클래스, 센추리 클래스, 엑스퍼디션, solstice cruise, millennium class, century class, celebrity xpedition, 셀러브리티크루즈,크루즈여행, 크루즈여행비용,크루즈관광,지중해크루즈, 알래스카크루즈, 유럽크루즈, 북미크루즈, 카리브해크루즈, 갈라파고스 크루즈, 아시아크루즈, 남미크루즈, 크루즈여행가격, 동남아크루즈여행, 북유럽크루즈여행, 크루즈성지순례, 바하마크루즈, 홍콩크루즈, 이클립스호, 실루엣호, 살스티스호, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="셀러브리티 크루즈의 크루즈선은 늘 최상의 컨디션과 서비스를 위해 변화하고 있습니다. 2010년부터 진행된 밀레니엄 클래스 크루즈선들에 살스티스 클래스 선상시설과 서비스를 도입하는 ‘살스티스화(Solsticization)’리노베이션 작업은 모든 승객에게 특별한 휴가를 선사하기 위한 셀러브리티 크루즈의 노력이 돋보입니다.">

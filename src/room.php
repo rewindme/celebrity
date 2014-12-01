@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>셀러브리티 크루즈 선실 종류 소개</title>
 <meta http-equiv="keyword" content="셀러브리티 크루즈 선실 종류, 아쿠아 클래스, 컨시어지 클래스, 발코니 선실, 오션뷰 선실, 셀러브리티크루즈,크루즈여행, 크루즈여행비용,크루즈관광,지중해크루즈, 알래스카크루즈, 유럽크루즈, 북미크루즈, 카리브해크루즈, 아시아크루즈, 남미크루즈, 크루즈여행가격, 동남아크루즈여행, 북유럽크루즈여행, 크루즈성지순례, 갈라파고스 크루즈, 바하마크루즈, 홍콩크루즈, 이클립스호, 실루엣호, 살스티스호, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="모던 럭셔리 대표선사 셀러브리티 크루즈는 편안한 크루즈 여행을 위해 여행 스타일에 맞는 선택이 가능한 다양한 선실을 구비하고 있습니다. 스위트, 발코니, 오션뷰, 내측으로 나뉘는 선실은 각 분류 내에서도 방의 위치, 크기, 3/4인 가능 여부, 휠체어 액세스 가능 여부 등 다양한 카테고리로 분류됩니다.">

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
+<meta name="viewport" content="width=device-width" /> 
 <title>셀러브리티 크루즈 월드클래스 다이닝, 레스토랑& 카페 소개</title>
 <meta http-equiv="keyword" content="셀러브리티 크루즈 다이닝, 셀러브리티 크루즈 레스토랑, 셀러브리티크루즈,크루즈여행, 크루즈여행비용,크루즈관광,지중해크루즈, 알래스카크루즈, 유럽크루즈, 북미크루즈, 카리브해크루즈, 아시아크루즈, 남미크루즈, 크루즈여행가격, 동남아크루즈여행, 북유럽크루즈여행, 크루즈성지순례, 갈라파고스 크루즈, 바하마크루즈, 홍콩크루즈, 이클립스호, 실루엣호, 살스티스호, 크루즈예약, celebrity cruises, cruise, celebrity, modern luxury, 모던럭셔리 크루즈, 럭셔리 크루즈">
 <meta http-equiv="description" content="셀러브리티 크루즈는 권위 있는 레스토랑 가이드북 미슐렝에서 선정된 스타 쉐프 자크 반 스타덴을 통해 다이닝의 수준을 한층 끌어 올렸습니다. 세계적인 주방장이 엄선한 전세계 각국에서 영감을 얻은 풀 코스 다이닝에서 시작해 개인의 식성에 다양한 요리를 제공하는 스페셜티 레스토랑에 이르기까지 세련되고 다양한 맛의 항연을 즐겨 보십시오.">

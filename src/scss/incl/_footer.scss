@@ -15,6 +15,7 @@ $footer-color:#002f63;
 		address{font-size:1em;color:#fff;display:block;margin-bottom:5px}
 		a{color:#d1d5dd}
 		p{font-size:0.85em;line-height:15px;color:#d1d5dd}
+		
 	}
 	.connect_sns{position:absolute;right:0;top:0;padding:14px 29px 29px 0}
 	.sns{color:#fff;@extend %inline-block;line-height:20px;padding:3px 0;font-size:0.9em}
@@ -29,7 +30,9 @@ $footer-color:#002f63;
 	
 	
 }
-
+@media screen and (-webkit-min-device-pixel-ratio:2){
+	.footer .copyright p{font-size:0.5em;color:#fff;line-height:1.3em}
+}
 .combobox{
 	@extend %inline-block;position:absolute;right:29px;top:44px;zoom:1;
 	.cb-button{border:1px solid #fff;background:transparent;color:#fff;height:30px;line-height:30px;padding:0 12px;box-sizing:content-box;cursor:pointer;white-space:nowrap;min-width:180px;text-align:left}
