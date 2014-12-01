@@ -174,7 +174,8 @@
 				</ul>
 			</div>
 			<p class="btns">
-				<a href="http://rccl.kr/cruise_guide/guide_template_popup.php?menu_id=199" target="_blank"><img src="im/btn_spa.jpg" alt="btn_spa_more" width="314" height="62"></a>
+				<a href="/pdf/spa_celebrity_20141201.pdf" target="_blank"><img src="im/btn_spa.jpg" alt="btn_spa_more" width="314" height="62"></a>
+				<!-- <a href="http://rccl.kr/cruise_guide/guide_template_popup.php?menu_id=199" target="_blank"><img src="im/btn_spa.jpg" alt="btn_spa_more" width="314" height="62"></a> -->
 			</p>
 			
 		</div>
